@@ -17,10 +17,10 @@ public sealed class SurveillanceCameraMicrophoneSystem : EntitySystem
         SubscribeLocalEvent<SurveillanceCameraMicrophoneComponent, ComponentInit>(OnInit);
         SubscribeLocalEvent<SurveillanceCameraMicrophoneComponent, ListenEvent>(RelayEntityMessage);
         SubscribeLocalEvent<SurveillanceCameraMicrophoneComponent, ListenAttemptEvent>(CanListen);
-        SubscribeLocalEvent<ExpandICChatRecipientsEvent>(OnExpandRecipients);
+        SubscribeLocalEvent<ExpandICChatRecipientstEvent>(OnExpandRecipients);
     }
 
-    private void OnExpandRecipients(ExpandICChatRecipientsEvent ev)
+    private void OnExpandRecipients(ExpandICChatRecipientstEvent ev)
     {
         var xformQuery = GetEntityQuery<TransformComponent>();
         var sourceXform = Transform(ev.Source);

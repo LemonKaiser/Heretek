@@ -40,19 +40,16 @@ public sealed class AssayPowerSystem : EntitySystem
             return;
 
         var ev = new AssayDoAfterEvent(_gameTiming.CurTime, args.FontSize, args.FontColor);
-        var doAfterArgs = new DoAfterArgs(EntityManager, args.Performer, args.UseDelay - TimeSpan.FromSeconds(psionic.CurrentAmplification), ev, args.Performer, args.Target, args.Performer)
+        _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, args.Performer, args.UseDelay - TimeSpan.FromSeconds(psionic.CurrentAmplification), ev, args.Performer, args.Target, args.Performer)
         {
             BlockDuplicate = true,
             BreakOnMove = true,
             BreakOnDamage = true,
-        };
-
-        if (!_doAfterSystem.TryStartDoAfter(doAfterArgs, out var doAfterId))
-            return;
-
+        }, out var doAfterId);
         psionic.DoAfter = doAfterId;
 
         _popups.PopupEntity(Loc.GetString(args.PopupTarget, ("entity", args.Target)), args.Performer, PopupType.Medium);
+
         _audioSystem.PlayPvs(args.SoundUse, args.Performer, AudioParams.Default.WithVolume(8f).WithMaxDistance(1.5f).WithRolloffFactor(3.5f));
         _psionics.LogPowerUsed(args.Performer, args.PowerName, args.MinGlimmer, args.MaxGlimmer);
         args.Handled = true;
