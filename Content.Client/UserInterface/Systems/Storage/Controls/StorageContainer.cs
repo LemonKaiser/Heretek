@@ -242,9 +242,6 @@ public sealed class StorageContainer : BaseWindow
 
     public void BuildItemPieces()
     {
-        if (!_entity.EntityExists(StorageEntity))
-            return;
-
         if (!_entity.TryGetComponent<StorageComponent>(StorageEntity, out var storageComp))
             return;
 

@@ -302,10 +302,6 @@
   root: true
 
 - type: loadoutCategory
-  id: Belt
-  root: true
-
-- type: loadoutCategory
   id: Shoes
   root: true
 

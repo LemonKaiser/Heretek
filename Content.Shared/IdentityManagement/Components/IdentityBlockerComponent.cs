@@ -21,8 +21,7 @@ public enum IdentityBlockerCoverage
     NONE  = 0,
     MOUTH = 1 << 0,
     EYES  = 1 << 1,
-    OUTER = 1 << 2,
-    FULL  = MOUTH | EYES | OUTER
+    FULL  = MOUTH | EYES
 }
 
 /// <summary>
@@ -31,7 +30,7 @@ public enum IdentityBlockerCoverage
 public sealed class SeeIdentityAttemptEvent : CancellableEntityEventArgs, IInventoryRelayEvent
 {
     // i.e. masks, helmets, or glasses.
-    public SlotFlags TargetSlots => SlotFlags.MASK | SlotFlags.HEAD | SlotFlags.EYES | SlotFlags.OUTERCLOTHING;
+    public SlotFlags TargetSlots => SlotFlags.MASK | SlotFlags.HEAD | SlotFlags.EYES;
 
     // cumulative coverage from each relayed slot
     public IdentityBlockerCoverage TotalCoverage = IdentityBlockerCoverage.NONE;

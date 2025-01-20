@@ -41,7 +41,7 @@ We provide some scripts shown below to make the job easier.
 ### Build dependencies
 
 > - Git
-> - .NET SDK 9.0.101
+> - .NET SDK 8.0.100
 
 
 ### Windows

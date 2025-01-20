@@ -1,6 +1,6 @@
 ﻿# hologram
 - type: shader
-  id: HologramDeltaV
+  id: Hologram
   kind: source
   path: "/Textures/DeltaV/Shaders/hologram.swsl"
   params:
