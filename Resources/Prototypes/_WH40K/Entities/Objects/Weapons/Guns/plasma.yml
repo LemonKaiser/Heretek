@@ -20,6 +20,7 @@
   - type: Gun
     soundGunshot:
       path: /Audio/_WH40K/Weapons/Guns/Gunshorts/plasmapist.wav
+  - type: Battery
     maxCharge: 1400
     startingCharge: 1400
   - type: ProjectileBatteryAmmoProvider
