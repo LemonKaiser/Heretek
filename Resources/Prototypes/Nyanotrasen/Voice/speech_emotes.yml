@@ -11,9 +11,12 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ hisses ]
+  chatMessages: [ шипит ]
   chatTriggers:
     - hisses
+    - шипит
+    - шипит.
+    - шипит!
 
 - type: emote
   id: Meow
@@ -27,12 +30,19 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ meows ]
+  chatMessages: [ мяукает ]
   chatTriggers:
     - meows
     - miaus
     - nyas
     - mraows
+    - мяукает
+    - мяукает!
+    - мяукает.
+    - мяу
+    - мяу.
+    - мяу!
+    - мяу~
 
 - type: emote
   id: Mew
@@ -46,9 +56,17 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ mews ]
+  chatMessages: [ миукает ]
   chatTriggers:
     - mews
+    - миукает
+    - миукает.
+    - миукает!
+    - миу
+    - миу.
+    - миу!
+    - миу~
+
 
 - type: emote
   id: Growl
@@ -62,9 +80,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ growls ]
+  chatMessages: [ рычит ]
   chatTriggers:
     - growls
+    - рычит
+    - рычит!
+    - рычит.
+    - недоволен
+    - недовольна
+
 
 - type: emote
   id: Purr
@@ -78,6 +102,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ purrs ]
+  chatMessages: [ мурчит ]
   chatTriggers:
     - purrs
+    - мурлыкает
+    - мурчит
+    - мур
+    - мурлыкает.
+    - мурчит.
+    - мур.
+    - мурлыкает!
+    - мурчит!
+    - мур!

@@ -90,6 +90,7 @@
     - FootstepSound
     - DoorBumpOpener
     - FelinidEmotes
+  - type: OwOAccent
 
 - type: entity
   save: false
