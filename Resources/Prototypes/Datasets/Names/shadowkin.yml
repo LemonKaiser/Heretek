@@ -1,101 +1,68 @@
 # Names for the shadowkin,
 # Shadowkin names are descriptive of
-# The two schools of thought,
-# A job designated for them,
-# Or something symbolic.
+# Their Primary Emotion,
+# A State of Being,
+# Or past Memories.
 
 - type: dataset
   id: names_shadowkin
   values:
-  # Marish
-  - Maaar
-  - Lwmar
-  - Lmwarmrrraw
-  - WlurrlmrrrAw
-  - UurlmmrwlAmur
-  - Mwrrrmlar
-  - Mwaarlwurm
-  - Aralwurm
-  - Arrmaurm
-  - Mwalwamar
-  - Mwalwarr
-  - Malamur
-  - Marur
-  - Wurmar
-  - Mmarr
-  - Mwalwarr
-  - Maarl
-  - Mmaraar
-  - Maamwaarr
-  - Maalmwar
-  - Mlarrul
-  - Maalamur
-  - Aarmwaarr
-  - Aalmwar
-  - Aarwalwar
-  - Amwalwar
-  - Aarmur
-  - Arlmur
-  - Mmarwaarr
-  - Mmalmwar
-  - Mmarwalwar
-  - Lmwamwar
-  - Mwalwarwar
-  - Mlalmwar
-  - Lmwaramur
-  - Maarlwurlmar
+  # Mar
+  # - Mar
 
-  # Civil Service
-  - Peacekeeper
-  - Fireman
-  - Courier
-  - Teacher
-  - Accountant
-  - Hairdresser
-  - Barkeep
-  - Janitor
-  - Librarian
+  # Sad
+  - Хрупкий
+  - разбитое сердце
+  - Неполноценный
+  - Одинокий
+  - Одинокий
+  - Потеря
+  - Одиночество
+  - Одиночество
+  - Печаль
+  - Тень
 
-  # Trades
-  - Welder
-  - Technician
-  - Carpenter
-  - Mason
-  - Blacksmith
-  - Plumber
-  - Locksmith
-  - Mechanic
-  - Framer
+  # Angry
+  - Страх
+  - Боязливый
+  - Ярость
+  - Боль
+  - Ярость
+  - Ярость
+  - Гнев
 
-  # Medical
-  - Doctor
-  - Nurse
-  - Shaman
-  - Paramedic
-  - Apothecary
-  - Alchemist
-  - Druid
-  - Herbalist
-  - Medicus
+  # Happy
+  - Спокойствие
+  - Содержательный
+  - Содержательный
+  - Счастливый
+  - Надеющийся
+  - Радостный
+  - Любящий
+  - Мир
+  - Мирный
+  - Тихий
+  - Безмятежный
+  - Безмятежность
+  - Спокойный
+  - Спокойствие
 
-  # Military
-  - Fighter
-  - Fixer
-  - Healer
-  - Supplier
-  - Scouter
-  - Veteran
-  - Sailor
-  - Rider
-  - Archer
+  # Memory
+  - Заблуждение
+  - Забытый
+  - Бессмысленный
+  - Потерянный
+  - Память
+  - Воспоминание
+  - Воспоминание
+  - Воспоминание
+  - Реминисценция
 
-  # Special
-  - Ash
-  - Ember
-  - Dreamer
-  - Leaf
-  - River
-  - Dirt
-  - Bark
-  - Stone
-  - Flame
+  # Other
+  - Апатия
+  - Собранность
+  - Любопытство
+  - Свободный
+  - Интерес
+  - Еще
+  - Непривязанность

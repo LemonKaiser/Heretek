@@ -110,3 +110,7 @@ JobWarden = смотритель
 JobVisitor = посетитель
 JobBoxer = боксёр
 JobZookeeper = зоотехник
+JobSeniorEngineer = ведущий инженер
+JobSeniorOfficer = инструктор
+JobSeniorPhysician = ведущий врач
+JobSeniorResearcher = ведущий ученый
