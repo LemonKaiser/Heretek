@@ -1,6 +1,4 @@
 - type: trait
-  name: trait-blindness-name
-  desc: trait-blindness-desc
   id: Blindness
   category: Visual
   points: 10
