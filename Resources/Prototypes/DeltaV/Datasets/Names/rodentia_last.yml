@@ -1,91 +1,89 @@
 # rodentia name scheme is "adjective-trait name", like "long-ears monty"
-
 - type: dataset
   id: NamesRodentiaLast
   values:
-  - Agile
-  - Beady-eyed
-  - Berry-picking
-  - Big
-  - Big-ears
-  - Big-eyed
-  - Big-heart
-  - Big-nose
-  - Blunt-nose
-  - Brave
-  - Break-neck
-  - Bright
-  - Bright-eyed
-  - Cheeky
-  - Crafty
-  - Cunning
-  - Curious
-  - Day-sleeping
-  - Eager
-  - Fast-moving
-  - Fast-paws
-  - Fat
-  - Fidgety
-  - Food-stealing
-  - Gentle
-  - Great
-  - Greedy
-  - Grumpy
-  - Hasty
-  - High-jumping
-  - Jumpy
-  - Keen
-  - Keen-eyes
-  - Light-foot
-  - Little
-  - Long
-  - Long-ears
-  - Long-legged
-  - Long-snout
-  - Long-tail
-  - Long-tooth
-  - Night-hunting
-  - Nimble
-  - No-eyes
-  - No-tail
-  - Nosy
-  - Quick-footed
-  - Quick-wits
-  - Quiet
-  - Ravenous
-  - Restless
-  - Rough
-  - Round-belly
-  - Rowdy
-  - Seed-stashing
-  - Shadow-dwelling
-  - Sharp
-  - Sharp-clawed
-  - Shifty
-  - Shiny-eyes
-  - Short-ears
-  - Short-legged
-  - Short-snout
-  - Short-tail
-  - Shy
-  - Silent
-  - Silver-tongue
-  - Skittish
-  - Small-ears
-  - Small-nose
-  - Sneaky
-  - Soft-fur
-  - Soft-paws
-  - Squeaking
-  - Squeaky
-  - Stout
-  - Stubborn
-  - Stubby
-  - Sweet
-  - Swift
-  - Thick-fur
-  - Thick-skin
-  - Thieving
-  - Trash-eating
-  - Tunnel-building
-  - Whisker-twitching
+  - Проворный
+  - Глаза-бусинки
+  - Сбор ягод
+  - Большой
+  - Большеухий
+  - Большеглазый
+  - Большое сердце
+  - Большеносый
+  - Тупоносый
+  - Храбрый
+  - Головолом
+  - Яркий
+  - Яркоглазый
+  - Нахальный
+  - Хитрый
+  - Любопытный
+  - Дневной сон
+  - Нетерпеливый
+  - Быстрый
+  - Быстрые лапы
+  - Толстый
+  - Непоседливый
+  - Кража еды
+  - Нежный
+  - Великий
+  - Жадный
+  - Ворчливый
+  - Торопливый
+  - Высоко прыгающий
+  - Прыгун
+  - Острый
+  - Острые глаза
+  - Легконогий
+  - Маленький
+  - Длинный
+  - Длинноухий
+  - Длинноногий
+  - Длинная морда
+  - Длинный хвост
+  - Длиннозубый
+  - Ночная охота
+  - Проворный
+  - Безглазый
+  - Безхвостый
+  - Любопытный
+  - Быстроногий
+  - Сообразительный
+  - Тихий
+  - Прожорливый
+  - Беспокойный
+  - Грубый
+  - Круглобрюхий
+  - Буйный
+  - Запасающий семена
+  - Живущий в тени
+  - Острый
+  - Острокоготный
+  - Хитрый
+  - Блестящий глазами
+  - Короткие уши
+  - Коротконогий
+  - Короткая морда
+  - Короткий хвост
+  - Застенчивый
+  - Молчаливый
+  - Серебряный язык
+  - Пугливый
+  - Маленькие уши
+  - Маленький нос
+  - Подлый
+  - Мягкий мех
+  - Мягкие лапы
+  - Писк
+  - Пискливый
+  - Крепкий
+  - Упрямый
+  - Короткий
+  - Милый
+  - Стремительный
+  - Густой мех
+  - Толстая кожа
+  - Воровской
+  - Пожиратель мусора
+  - Строящий туннели
+  - Дергающий усами

@@ -2,13 +2,16 @@ humanoid-profile-editor-randomize-everything-button = Случайный пер�
 humanoid-profile-editor-name-label = Имя:
 humanoid-profile-editor-name-random-button = Сгенерировать
 humanoid-profile-editor-appearance-tab = Внешность
+humanoid-profile-editor-loadouts = Отображать лодаут:
+humanoid-profile-editor-loadouts-show = Переключить:
 humanoid-profile-editor-clothing = Отображать одежду
 humanoid-profile-editor-clothing-show = Переключить
 humanoid-profile-editor-sex-label = Пол:
-humanoid-profile-editor-sex-male-text = Самец
-humanoid-profile-editor-sex-female-text = Самка
+humanoid-profile-editor-sex-male-text = Мужчина
+humanoid-profile-editor-sex-female-text = Женщина
 humanoid-profile-editor-sex-unsexed-text = Отсутствует
 humanoid-profile-editor-age-label = Возраст:
+humanoid-profile-editor-weight-label = Вес: {$weight}кг
 humanoid-profile-editor-skin-color-label = Цвет кожи:
 humanoid-profile-editor-species-label = Раса:
 humanoid-profile-editor-pronouns-label = Личное местоимение:
@@ -55,3 +58,38 @@ humanoid-profile-editor-trait-count-hint = Доступно очков: [{ $curr
 trait-category-disabilities = Ограничения
 trait-category-speech = Черты речи
 trait-category-quirks = Причуды
+
+humanoid-profile-editor-traits-header = У вас есть {$points ->
+[1] 1 балл
+*[other] {$points} очков
+} и {$maxTraits ->
+[2147483648] {$traits ->
+[1] {$traits} черта
+*[other] {$traits} черт
+}
+*[other] {$traits}/{$maxTraits} черт
+}
+humanoid-profile-editor-traits-show-unusable-button = Показать неиспользуемые черты
+humanoid-profile-editor-traits-show-unusable-button-tooltip = При включении черты, которые ваша текущая настройка персонажа не может использовать, будут отображаться подсвеченными красным или оранжевым цветом, если они выбраны. Вы по-прежнему не сможете использовать недопустимые черты, если ваша настройка персонажа не изменится в соответствии с требованиями. Это, скорее всего, полезно только в том случае, если есть ошибка, скрывающая черты, которые вы на самом деле можете использовать, или если вы хотите увидеть черты других видов или что-то в этом роде.
+humanoid-profile-editor-traits-remove-unusable-button = Удалить {$count} неиспользуемых черт
+humanoid-profile-editor-traits-remove-unusable-button-tooltip = Если вы нажмете эту кнопку, все черты, которые ваша текущая настройка персонажа не может использовать, будут удалены. Вас попросят подтвердить, прежде чем черты будут удалены.
+humanoid-profile-editor-traits-no-traits = Черты не найдены
+
+humanoid-profile-editor-loadouts-tab = Снаряжение
+humanoid-profile-editor-loadouts-points-label = У вас {$points}/{$max} очков
+humanoid-profile-editor-loadouts-show-unusable-button = Показать неиспользуемое снаряжение
+humanoid-profile-editor-loadouts-show-unusable-button-tooltip = При включении снаряжения, которые ваш текущий персонаж не может использовать, будут выделены красным цветом. Загрузки, которые ваш персонаж не может носить (если это одежда), будут выделены желтым цветом. Вы по-прежнему не сможете использовать недопустимые загрузки, если только ваша настройка персонажа не изменится в соответствии с требованиями. Это может быть полезно, если вы любите переключаться между несколькими профессиями и не хотите каждый раз заново выбирать свою загрузку при переключении.
+humanoid-profile-editor-loadouts-remove-unusable-button = Удалить {$count ->
+[1] {$count} Неиспользуемое снаряжение
+*[other] {$count} Неиспользуемое снаряжение
+}
+humanoid-profile-editor-loadouts-remove-unusable-button-tooltip = Если вы нажмете эту кнопку, все лодауты, которые ваша текущая настройка персонажа не может использовать, будут удалены. Вас попросят подтвердить, прежде чем лодауты будут удалены.
+humanoid-profile-editor-loadouts-no-loadouts = Лодауты не найдены.
+humanoid-profile-editor-loadouts-customize = Настроить
+humanoid-profile-editor-loadouts-customize-name = Имя
+humanoid-profile-editor-loadouts-customize-description = Описание
+humanoid-profile-editor-loadouts-customize-color = Оттенок цвета
+humanoid-profile-editor-loadouts-customize-save = Сохранить
+humanoid-profile-editor-loadouts-guidebook-button-tooltip = Нажмите для получения дополнительной информации
+humanoid-profile-editor-loadouts-heirloom = heirloom
+humanoid-profile-editor-loadouts-heirloom-tooltip = Любое выбранное вами в качестве потенциальной heirloom, оно будет выбразно случайным образом при спавне.
