@@ -33,6 +33,8 @@ namespace Content.Server.Speech.EntitySystems
                 .Replace("р", "в").Replace("Р", "В")
                 .Replace("л", "в").Replace("Л", "В")
                 // Corvax-Localization-End
+                .Replace("r", "w").Replace("R", "W")
+                .Replace("l", "w").Replace("L", "W");
         }
 
         private void OnAccent(EntityUid uid, OwOAccentComponent component, AccentGetEvent args)
