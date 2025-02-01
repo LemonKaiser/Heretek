@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesAnkleBoots
+  name: берцы
+  description: filler
+  suffix: WH40K, войдсманы
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Shoes/Boots/combatboots.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Shoes/Boots/combatboots.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.5

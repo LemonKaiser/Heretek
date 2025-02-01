@@ -14,7 +14,7 @@
       sound:
         path: /Audio/Ambience/Objects/periodic_beep.ogg
     - type: Sprite
-      sprite: Structures/Power/smes.rsi
+      sprite: NES/Structures/Power/smes.rsi #NES14-Changes
       snapCardinals: true
       layers:
         - state: smes
@@ -25,6 +25,7 @@
         - map: ["enum.SmesVisualLayers.Input"]
           state: "smes-oc0"
           shader: unshaded
+          visible: false
         - map: ["enum.SmesVisualLayers.Output"]
           state: "smes-op1"
           shader: unshaded

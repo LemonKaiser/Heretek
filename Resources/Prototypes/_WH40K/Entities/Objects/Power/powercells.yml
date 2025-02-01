@@ -1,0 +1,92 @@
+- type: entity
+  id: WH40KPowerCell
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Item
+    storedRotation: -90
+  - type: Battery
+    maxCharge: 1500
+    startingCharge: 1500
+    pricePerJoule: 0.15
+  - type: PowerCell
+  - type: Appearance
+  - type: PowerCellVisuals
+  - type: Riggable
+
+- type: entity
+  name: батарея лазгана
+  id: LasgunPowerCell
+  parent: WH40KPowerCell
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Power/power_cells.rsi
+    layers:
+    - state: lasgun
+  - type: Tag
+    tags:
+      - LasgunPowerCell
+  - type: HitscanBatteryAmmoProvider
+    proto: RedLightLaser
+    fireCost: 50
+
+- type: entity
+  name: контейнер плазма-винтовки
+  id: PlasmGunPowerCell
+  parent: WH40KPowerCell
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Power/power_cells.rsi
+    layers:
+    - state: plasmagun
+  - type: Tag
+    tags:
+      - PlasmPowerCell
+  - type: Battery
+    maxCharge: 14000
+    startingCharge: 14000
+  - type: ProjectileBatteryAmmoProvider
+    proto: WHBulletPlasmaRifle
+    fireCost: 1000
+
+- type: entity
+  name: контейнер плазма-пистолета
+  id: PlasmPistolPowerCell
+  parent: WH40KPowerCell
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Power/power_cells.rsi
+    layers:
+    - state: plasmapistol
+  - type: Tag
+    tags:
+      - PlasmPowerCell
+  - type: Battery
+    maxCharge: 7000
+    startingCharge: 7000
+  - type: ProjectileBatteryAmmoProvider
+    proto: WHBulletPlasmaPistol
+    fireCost: 1000
+
+- type: entity
+  name: контейнер мельта-оружия
+  id: MeltPowerCell
+  parent: WH40KPowerCell
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Power/power_cells.rsi
+    layers:
+    - state: meltagunammo
+  - type: Tag
+    tags:
+      - MeltPowerCell
+  - type: Battery
+    maxCharge: 15000
+    startingCharge: 15000
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletPlasmaguns
+    fireCost: 1500

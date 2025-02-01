@@ -11,6 +11,18 @@
       "name": "statue"
     },
     {
+      "name": "icon"
+    },
+    {
+      "name": "eyes"
+    },
+    {
+      "name": "eyes_unshaded"
+    },
+    {
+      "name": "teeth_unshaded"
+    },
+    {
       "name": "unshaded"
     }
   ]

@@ -3,6 +3,7 @@
   parent: BaseItem
   id: WHHamerImperial
   description: Тяжёлый, крепкий, на удивление НЕ силовой молот. Многие считают его символом праведного гнева и правосудия.
+  suffix: WH40K
   components:
   - type: Tag
     tags:

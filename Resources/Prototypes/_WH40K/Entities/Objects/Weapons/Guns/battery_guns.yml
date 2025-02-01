@@ -1,0 +1,149 @@
+- type: entity
+  parent: BaseItem
+  id: WeaponLaserWH40KEnergy
+  abstract: true
+  components:
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 3
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_WH40K/Weapons/Guns/Gunshots/lasgunpew.ogg
+  - type: MagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LasgunPowerCell
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - LasgunPowerCell
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+  - type: Sprite
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/lasgun.rsi
+#    scale: 0.8, 0.8
+#    Scale: 0.8, 0.8
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/lasgun_in-hands.rsi
+    size: Huge
+    shape:
+    - 0,0,4,1
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+
+- type: entity
+  name: лазган
+  parent: [WeaponLaserWH40KEnergy, BaseGunWieldable]
+  id: WeaponLaserLasgun
+  description: filler
+  suffix: WH40K
+  components:
+  - type: Clothing
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/lasgun_in-hands.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+
+- type: entity
+  name: плазма-пистолет
+  parent: WeaponLaserWH40KEnergy
+  id: WeaponLaserPlasmaPistol
+  description: Уменьшенная версия Плазменной Винтовки, не смотря на размер не потерял в мощности, чего не скажешь о размере его топливного бака. Прекрасное личное оружие офицеров по всему империуму.
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmapistol.rsi
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_WH40K/Weapons/Guns/Gunshorts/plasmapist.wav
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: PlasmGunPowerCell
+        whitelist:
+          tags:
+            - PlasmPowerCell
+  - type: Item
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmapistol.rsi
+
+- type: entity
+  name: плазма-винтовка
+  parent: [WeaponLaserPlasmaPistol, BaseGunWieldable]
+  id: WeaponLaserPlasmagun
+  description: filler
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmagun.rsi
+  - type: Clothing
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmagun_in-hands.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    soundGunshot:
+      path: /Audio/_WH40K/Weapons/Guns/Gunshorts/plasmagun.wav
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: PlasmPistolPowerCell
+  - type: Item
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmagun_in-hands.rsi
+
+- type: entity
+  name: мельта-винтовка
+  parent: [WeaponLaserWH40KEnergy, BaseGunWieldable]
+  id: WeaponLaserMeltagun
+  description: filler
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/meltagun.rsi
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_WH40K/Weapons/Guns/Gunshorts/meltagun.mp3
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MeltPowerCell
+        whitelist:
+          tags:
+            - MeltPowerCell
+  - type: Clothing
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/meltagun_in-hands.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Item
+    sprite: _WH40K/Objects/Weapons/Battery/meltagun_in-hands.rsi

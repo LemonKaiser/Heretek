@@ -2,7 +2,8 @@
   name: Силовая Сабля
   parent: BaseSword
   id: WHPowerSaberImperial
-  description: Высококачественная, благородная офицерская силовая сабля, выполненная из дорогих материалов. Её энергетическое поле позволяет лезвию прорезать плоть, кости и большинство защитных доспехов. 
+  description: Высококачественная, благородная офицерская силовая сабля, выполненная из дорогих материалов. Её энергетическое поле позволяет лезвию прорезать плоть, кости и большинство защитных доспехов.
+  suffix: WH40K
   components:
   - type: Sprite
     sprite: _WH40K/Objects/Weapons/Melee/power_sword_imperial.rsi
@@ -41,6 +42,5 @@
   - type: DisarmMalus
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-inanimate
-    weight: 0.0002 
+    weight: 0.0002
   - type: PirateAccent
-
