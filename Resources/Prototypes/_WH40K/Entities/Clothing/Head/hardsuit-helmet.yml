@@ -1,0 +1,93 @@
+#Voidsmans
+
+#офицер
+- type: entity
+  parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadEVAHelmetBase]
+  id: ClothingHeadHelmetHardsuitVoidsmanStandard
+  name: шлем войдсмана
+  description: filler
+  suffix: WH40K, войдсмены
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hardsuits/voidsman.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hardsuits/voidsman.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.50
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.90
+
+#смотритель
+- type: entity
+  parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadEVAHelmetBase]
+  id: ClothingHeadHelmetHardsuitVoidsmanOfficer
+  name: шлем офицера войдсмана
+  description: filler
+  suffix: WH40K, войдсмены
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hardsuits/v_officer.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hardsuits/v_officer.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.45
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
+
+#ГСБ
+- type: entity
+  parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadEVAHelmetBase]
+  id: ClothingHeadHelmetHardsuitVoidsmanSergeant
+  name: шлем сержанта войдсмана
+  description: filler
+  suffix: WH40K, войдсмены
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hardsuits/v_sergeant.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hardsuits/v_sergeant.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.40
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
+  - type: FlashImmunity # Counterpoint: the HoS can't see
+  - type: EyeProtection # They're blind as hell
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitVoidsmanSergeant
+  id: ClothingHeadHelmetHardsuitVoidsmanGrenadier
+  name: шлем гренадёра войдсмана
+  description: filler
+  suffix: WH40K, войдсмены
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hardsuits/v_grenadier.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hardsuits/v_grenadier.rsi
+  - type: Item
+    size: Small
+    storedRotation: -90

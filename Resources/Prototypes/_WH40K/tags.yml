@@ -1,0 +1,11 @@
+- type: Tag
+  id: LasgunPowerCell
+
+- type: Tag
+  id: PlasmPowerCell
+
+- type: Tag
+  id: MeltPowerCell
+
+- type: Tag
+  id: MagazineCombatShotgun

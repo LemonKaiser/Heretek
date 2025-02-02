@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingHandsGlovesColorBlack
+  id: ClothingHandsGlovesCombatVoidsman
+  name: боевые перчатки
+  description: filler
+  suffix: WH40K, войдсмены
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Hands/Gloves/v_sergeant.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Hands/Gloves/v_sergeant.rsi
+  - type: Insulated
