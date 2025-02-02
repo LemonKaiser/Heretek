@@ -1,0 +1,45 @@
+- type: entity
+  name: шприц-пистолет
+  parent: BaseItem
+  description: Медицинское приспособление, предназначенное для ускоренного введения жидкостей в живые (или не очень) тела. 
+  id: SyringeGun
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/syringegun.rsi
+  - type: Icon
+    sprite: Objects/Specific/Medical/syringegun.rsi
+  - type: Item
+    size: Small
+    sprite: Objects/Specific/Medical/syringegun.rsi
+  - type: SolutionContainerManager
+    solutions:
+      injector:
+        maxVol: 15
+  - type: Injector
+    injectOnly: false
+    delay: 0.5
+  - type: ExaminableSolution
+    solution: injector
+  - type: Spillable
+    solution: injector
+    
+- type: entity
+  name: продвинутый шприц-пистолет
+  parent: BaseItem
+  description: Улучшенная версия шприц-пистолета, моментально вводящая содержимое в целевую сущность.
+  id: AdvSyringeGun
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/advsyringegun.rsi
+  - type: Icon
+    sprite: Objects/Specific/Medical/advsyringegun.rsi    
+  - type: Item
+    sprite: Objects/Specific/Medical/advsyringegun.rsi    
+  - type: RefillableSolution
+    solution: hypospray
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    onlyAffectsMobs: false
+  - type: UseDelay
+    delay: 0.5
