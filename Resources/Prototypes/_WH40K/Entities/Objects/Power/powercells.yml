@@ -87,6 +87,6 @@
   - type: Battery
     maxCharge: 15000
     startingCharge: 15000
-  - type: ProjectileBatteryAmmoProvider
-    proto: BulletPlasmaguns
+  - type: HitscanBatteryAmmoProvider
+    proto: RedMeltaLaser
     fireCost: 1500
