@@ -11,7 +11,7 @@
     - SemiAuto
     - FullAuto
     soundGunshot:
-      path: /Audio/_WH40K/Weapons/Guns/Gunshots/lasgunpew.ogg
+      path: /Audio/_WH40K/Weapons/Guns/Gunshorts/lasgunpew.ogg
   - type: MagazineAmmoProvider
   - type: ItemSlots
     slots:
