@@ -5,12 +5,11 @@
   id: SyringeGun
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/syringegun.rsi
-  - type: Icon
-    sprite: Objects/Specific/Medical/syringegun.rsi
+    sprite: /Textures/_WH40K/Objects/Specific/Medical/syringegun.rsi
+    state: icon
   - type: Item
-    size: Small
-    sprite: Objects/Specific/Medical/syringegun.rsi
+    sprite: /Textures/_WH40K/Objects/Specific/Medical/syringegun.rsi
+    size: Medium
   - type: SolutionContainerManager
     solutions:
       injector:
@@ -30,11 +29,15 @@
   id: AdvSyringeGun
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/advsyringegun.rsi
-  - type: Icon
-    sprite: Objects/Specific/Medical/advsyringegun.rsi    
+    sprite: /Textures/_WH40K/Objects/Specific/Medical/advsyringegun.rsi
+    state: icon
   - type: Item
-    sprite: Objects/Specific/Medical/advsyringegun.rsi    
+    sprite: /Textures/_WH40K/Objects/Specific/Medical/advsyringegun.rsi
+    size: Medium
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 20
   - type: RefillableSolution
     solution: hypospray
   - type: ExaminableSolution
