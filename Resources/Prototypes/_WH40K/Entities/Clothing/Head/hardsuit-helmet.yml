@@ -4,10 +4,11 @@
 - type: entity
   parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadEVAHelmetBase]
   id: ClothingHeadHelmetHardsuitVoidsmanStandard
-  name: шлем войдсмана
-  description: filler
+  name: шлем войдсмена
+  description: Шлем стандартного скафандра войдсмена.
   suffix: WH40K, войдсмены
   components:
+  - type: BreathMask
   - type: Sprite
     sprite: _WH40K/Clothing/Head/Hardsuits/voidsman.rsi
   - type: Clothing
@@ -29,10 +30,11 @@
 - type: entity
   parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadEVAHelmetBase]
   id: ClothingHeadHelmetHardsuitVoidsmanOfficer
-  name: шлем офицера войдсмана
-  description: filler
+  name: шлем офицера войдсмена
+  description: Шлем офицерской модификации скафандра войдсмена.
   suffix: WH40K, войдсмены
   components:
+  - type: BreathMask
   - type: Sprite
     sprite: _WH40K/Clothing/Head/Hardsuits/v_officer.rsi
   - type: Clothing
@@ -45,19 +47,20 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.85
-        Slash: 0.85
-        Piercing: 0.85
-        Heat: 0.85
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.80
+        Heat: 0.80
 
 #ГСБ
 - type: entity
   parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadEVAHelmetBase]
   id: ClothingHeadHelmetHardsuitVoidsmanSergeant
-  name: шлем сержанта войдсмана
-  description: filler
+  name: шлем сержанта войдсмена
+  description: Шлем сержантской модификации скафандра войдсмена.
   suffix: WH40K, войдсмены
   components:
+  - type: BreathMask
   - type: Sprite
     sprite: _WH40K/Clothing/Head/Hardsuits/v_sergeant.rsi
   - type: Clothing
@@ -80,10 +83,11 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitVoidsmanSergeant
   id: ClothingHeadHelmetHardsuitVoidsmanGrenadier
-  name: шлем гренадёра войдсмана
-  description: filler
+  name: шлем гренадёра войдсмена
+  description: Шлем гренадёрской модификации скафандра войдсмена.
   suffix: WH40K, войдсмены
   components:
+  - type: BreathMask
   - type: Sprite
     sprite: _WH40K/Clothing/Head/Hardsuits/v_grenadier.rsi
   - type: Clothing

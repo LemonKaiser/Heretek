@@ -3,7 +3,7 @@
   id: ClothingShoesAnkleBoots
   name: берцы флота
   description: Прочные флотские берцы.
-  suffix: WH40K, войдсманы
+  suffix: WH40K, войдсмены
   components:
   - type: Sprite
     sprite: _WH40K/Clothing/Shoes/Boots/combatboots.rsi

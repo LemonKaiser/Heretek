@@ -20,7 +20,7 @@
   id: RedLaser
   damage:
     types:
-      Heat: 15
+      Heat: 14
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser
