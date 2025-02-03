@@ -122,7 +122,7 @@
   name: мельта-винтовка
   parent: [WeaponLaserWH40KEnergy, BaseGunWieldable]
   id: WeaponLaserMeltagun
-  description: filler
+  description: Оружие, использующее реакцию термоядерного синтеза для уничтожения противника. Крайне смертоносно.
   suffix: WH40K
   components:
   - type: Sprite
