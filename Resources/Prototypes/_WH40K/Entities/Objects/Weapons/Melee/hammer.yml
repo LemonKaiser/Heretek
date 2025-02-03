@@ -1,7 +1,7 @@
 - type: entity
   name: Боевой Молот
   parent: BaseItem
-  id: WHHamerImperial
+  id: WHHammerImperial
   description: Тяжёлый, крепкий, на удивление НЕ силовой молот. Многие считают его символом праведного гнева и правосудия.
   suffix: WH40K
   components:
@@ -12,7 +12,7 @@
   - type: Execution
     doAfterDuration: 4.0
   - type: Sprite
-    sprite: _WH40K/Objects/Weapons/Melee/hamer_imperial.rsi
+    sprite: _WH40K/Objects/Weapons/Melee/hammer_imperial.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 135
@@ -43,7 +43,7 @@
   - type: Item
     size: Ginormous
   - type: Clothing
-    sprite: _WH40K/Objects/Weapons/Melee/hamer_imperial.rsi
+    sprite: _WH40K/Objects/Weapons/Melee/hammer_imperial.rsi
     quickEquip: false
     slots:
     - back

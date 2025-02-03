@@ -82,10 +82,10 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: PlasmGunPowerCell
+        startingItem: PlasmPistolPowerCell
         whitelist:
           tags:
-            - PlasmPowerCell
+            - PlasmPowerCellPistol
   - type: Item
     sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmapistol.rsi
 
@@ -111,7 +111,10 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: PlasmPistolPowerCell
+        startingItem: PlasmGunPowerCell
+        whitelist:
+          tags:
+            - PlasmPowerCellGun
   - type: Item
     sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmagun_in-hands.rsi
 
