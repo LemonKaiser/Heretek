@@ -52,7 +52,7 @@
   name: лазган
   parent: [WeaponLaserWH40KEnergy, BaseGunWieldable]
   id: WeaponLaserLasgun
-  description: filler
+  description: Стандартная противопехотная лазерная винтовка, массово используемая силами Империума.
   suffix: WH40K
   components:
   - type: Clothing
