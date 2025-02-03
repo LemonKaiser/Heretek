@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingUniformJumpsuitVoidsmanSergeant
+  name: форма сержанта войдсменов
+  description: filler
+  suffix: WH40K, войдсмены
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/OuterClothing/WinterCoats/v_sergeant_suit.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/OuterClothing/WinterCoats/v_sergeant_suit.rsi

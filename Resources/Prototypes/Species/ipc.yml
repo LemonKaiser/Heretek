@@ -14,7 +14,8 @@
   youngAge: 50
   maleFirstNames: IpcFirst
   femaleFirstNames: IpcFirst
-  lastNames: IpcLast
+  maleLastNames: IpcLast
+  femaleLastNames: IpcLast
   naming: FirstDashLast
   sexes:
   - Unsexed

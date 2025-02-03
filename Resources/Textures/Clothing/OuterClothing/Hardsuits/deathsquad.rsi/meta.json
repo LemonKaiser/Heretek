@@ -15,11 +15,11 @@
       "directions": 4
     },
     {
-      "name": "equipped-OUTERCLOTHING-harpy",
-      "directions": 4
-    },
-    {
       "name": "equipped-OUTERCLOTHING-vox",
+	  "directions": 4
+	},
+	{
+      "name": "equipped-OUTERCLOTHING-harpy",
       "directions": 4
     },
     {
@@ -27,11 +27,8 @@
       "directions": 4
     },
     {
-        "name": "inhand-right",
-        "directions": 4
-    },
-    {
-        "name": "segment"
+      "name": "inhand-right",
+      "directions": 4
     }
   ]
 }

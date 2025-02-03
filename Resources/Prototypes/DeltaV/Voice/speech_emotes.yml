@@ -70,9 +70,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ caws ]
+  chatMessages: [ каркает ]
   chatTriggers:
     - caws
+    - кар
+    - кар!
+    - кар.
+    - каркает
+    - каркает!
+    - каркает.
 
 #Vulpkanin
 - type: emote

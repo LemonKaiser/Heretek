@@ -15,8 +15,8 @@
   maxWidth: 1.15
   maleFirstNames: names_tajaran_first
   femaleFirstNames: names_tajaran_first
-  lastNames: names_tajaran_last
-  
+  femaleLastNames: names_tajaran_last
+  maleLastNames: names_tajaran_last
 
 - type: markingPoints
   id: MobTajaranMarkingLimits
