@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesAnkleBoots
-  name: берцы
-  description: filler
+  name: берцы флота
+  description: Прочные флотские берцы.
   suffix: WH40K, войдсманы
   components:
   - type: Sprite

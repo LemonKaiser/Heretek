@@ -28,7 +28,7 @@
     tags:
       - LasgunPowerCell
   - type: HitscanBatteryAmmoProvider
-    proto: RedLightLaser
+    proto: RedLaser
     fireCost: 50
 
 - type: entity

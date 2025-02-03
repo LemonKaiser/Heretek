@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
-  id: ClothingUniformJumpsuitVoidsmanSergeant
-  name: форма сержанта войдсменов
-  description: filler
+  id: ClothingUniformJumpsuitVoidsmanOfficer
+  name: униформа офицера войдсменов
+  description: Роскошно выглядящий китель высокопоставленного офицера войдсменов
   suffix: WH40K, войдсмены
   components:
   - type: Sprite
