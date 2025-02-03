@@ -2,7 +2,10 @@
   id: LasgunPowerCell
 
 - type: Tag
-  id: PlasmPowerCell
+  id: PlasmPowerCellGun
+  
+- type: Tag
+  id: PlasmPowerCellPistol
 
 - type: Tag
   id: MeltPowerCell

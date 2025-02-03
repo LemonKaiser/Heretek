@@ -11,7 +11,7 @@
     - SemiAuto
     - FullAuto
     soundGunshot:
-      path: /Audio/_WH40K/Weapons/Guns/Gunshorts/lasgunpew.ogg
+      path: /Audio/_WH40K/Weapons/Guns/Gunshots/lasgunpew.ogg
   - type: MagazineAmmoProvider
   - type: ItemSlots
     slots:
@@ -77,15 +77,15 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/_WH40K/Weapons/Guns/Gunshorts/plasmapist.wav
+      path: /Audio/_WH40K/Weapons/Guns/Gunshots/plasmapist.wav
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: PlasmGunPowerCell
+        startingItem: PlasmPistolPowerCell
         whitelist:
           tags:
-            - PlasmPowerCell
+            - PlasmPowerCellPistol
   - type: Item
     sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmapistol.rsi
 
@@ -93,7 +93,7 @@
   name: плазма-винтовка
   parent: [WeaponLaserPlasmaPistol, BaseGunWieldable]
   id: WeaponLaserPlasmagun
-  description: filler
+  description: Пожалуй, самое известное и эффективное оружие Империума, встречающееся во всех его войсках.
   suffix: WH40K
   components:
   - type: Sprite
@@ -106,12 +106,15 @@
     - suitStorage
   - type: Gun
     soundGunshot:
-      path: /Audio/_WH40K/Weapons/Guns/Gunshorts/plasmagun.wav
+      path: /Audio/_WH40K/Weapons/Guns/Gunshots/plasmagun.wav
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: PlasmPistolPowerCell
+        startingItem: PlasmGunPowerCell
+        whitelist:
+          tags:
+            - PlasmPowerCellGun
   - type: Item
     sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmagun_in-hands.rsi
 
@@ -130,7 +133,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/_WH40K/Weapons/Guns/Gunshorts/meltagun.mp3
+      path: /Audio/_WH40K/Weapons/Guns/Gunshots/meltagun.ogg
   - type: ItemSlots
     slots:
       gun_magazine:

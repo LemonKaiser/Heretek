@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCommandUniform
   name: форма флота
-  description: filler
+  description: Самая обыкновенная флотская униформа - строго и без изысков.
   suffix: WH40K, флот
   components:
   - type: Sprite
@@ -13,8 +13,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitVoidsman
-  name: форма войдсменов
-  description: filler
+  name: униформа войдсменов
+  description: Строгий тёмный комбинезон флота - самая необходимая вещь для службы в рядах войдсменов.
   suffix: WH40K, войдсмены
   components:
   - type: Sprite

@@ -3,8 +3,8 @@
   maxLength: 5
   damage:
     types:
-      Heat: 50
-      Structural: 25
+      Heat: 100
+      Structural: 200
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_beam_heavy2

@@ -3,6 +3,7 @@
   parent: BaseItem
   description: Медицинское приспособление, предназначенное для ускоренного введения жидкостей в живые (или не очень) тела. 
   id: SyringeGun
+  suffix: WH40K
   components:
   - type: Sprite
     sprite: /Textures/_WH40K/Objects/Specific/Medical/syringegun.rsi
@@ -27,6 +28,7 @@
   parent: BaseItem
   description: Улучшенная версия шприц-пистолета, моментально вводящая содержимое в целевую сущность.
   id: AdvSyringeGun
+  suffix: WH40K
   components:
   - type: Sprite
     sprite: /Textures/_WH40K/Objects/Specific/Medical/advsyringegun.rsi

@@ -28,7 +28,7 @@
     tags:
       - LasgunPowerCell
   - type: HitscanBatteryAmmoProvider
-    proto: RedLightLaser
+    proto: RedLaser
     fireCost: 50
 
 - type: entity
@@ -43,7 +43,7 @@
     - state: plasmagun
   - type: Tag
     tags:
-      - PlasmPowerCell
+      - PlasmPowerCellGun
   - type: Battery
     maxCharge: 14000
     startingCharge: 14000
@@ -63,7 +63,7 @@
     - state: plasmapistol
   - type: Tag
     tags:
-      - PlasmPowerCell
+      - PlasmPowerCellPistol
   - type: Battery
     maxCharge: 7000
     startingCharge: 7000
