@@ -20,8 +20,8 @@
   suffix: WH40K
   components: 
   - type: Sprite
-    sprite: _WH40K\Clothing\Shoes\Boots\commissar.rsi
+    sprite: _WH40K/Clothing/Shoes/Boots/commissar.rsi
   - type: Clothing
-    sprite: _WH40K\Clothing\Shoes\Boots\commissar.rsi
+    sprite: _WH40K/Clothing/Shoes/Boots/commissar.rsi
   - type: ClothingSlowOnDamageModifier
     modifier: 0.4

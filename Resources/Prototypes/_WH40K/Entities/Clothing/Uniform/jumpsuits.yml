@@ -30,6 +30,6 @@
   suffix: WH40K
   components: 
   - type: Sprite
-    sprite: _WH40K\Clothing\Uniforms\Jumpsuit\commissar.rsi
+    sprite: _WH40K/Clothing/Uniforms/Jumpsuit/commissar.rsi
   - type: Clothing
-    sprite: _WH40K\Clothing\Uniforms\Jumpsuit\commissar.rsi
+    sprite: _WH40K/Clothing/Uniforms/Jumpsuit/commissar.rsi

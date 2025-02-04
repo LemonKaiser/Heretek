@@ -55,8 +55,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorCommissar
-  name: куртка комиссара
-  description: Комиссарская куртка - вот он, символ НАСТОЯЩЕЙ власти на поле боя. 
+  name: шинель комиссара
+  description: Комиссарская шинель - вот он, символ НАСТОЯЩЕЙ власти на поле боя. 
   suffix: WH40K
   components:
   - type: Sprite

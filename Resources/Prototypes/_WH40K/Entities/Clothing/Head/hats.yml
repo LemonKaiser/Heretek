@@ -6,6 +6,6 @@
   suffix: WH40K
   components:
   - type: Sprite
-    sprite: _WH40K\Clothing\Head\Hats\commissar.rsi
+    sprite: _WH40K/Clothing/Head/Hats/commissar.rsi
   - type: Clothing
-    sprite: _WH40K\Clothing\Head\Hats\commissar.rsi
+    sprite: _WH40K/Clothing/Head/Hats/commissar.rsi
