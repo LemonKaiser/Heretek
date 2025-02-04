@@ -29,8 +29,8 @@
         Caustic: 0.60
         Heat: 0.60
   - type: ClothingSpeedModifier
-    walkModifier: 0.75
-    sprintModifier: 0.75
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: Item
     size: Ginormous
@@ -122,7 +122,7 @@
   - type: Clothing
     sprite: _WH40K/Clothing/OuterClothing/Hardsuits/v_grenadier.rsi
   - type: ExplosionResistance
-    damageCoefficient: 0.70
+    damageCoefficient: 0.30
   - type: Armor 
     modifiers:
       coefficients:

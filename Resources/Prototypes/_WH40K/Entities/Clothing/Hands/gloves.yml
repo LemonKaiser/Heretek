@@ -2,7 +2,7 @@
   parent: ClothingHandsGlovesColorBlack
   id: ClothingHandsGlovesCombatVoidsman
   name: боевые перчатки
-  description: Боевые перчатки флота
+  description: Боевые перчатки флота.
   suffix: WH40K, войдсмены
   components:
   - type: Sprite

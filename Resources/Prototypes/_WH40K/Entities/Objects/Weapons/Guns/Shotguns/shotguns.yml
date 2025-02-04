@@ -3,7 +3,7 @@
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable]
   id: WeaponShotgunCombatShotgun
-  description: filler
+  description: Выглядя как простейший дробовик (и являясь им), это оружие представляет из себя, пожалуй, самый смертоносный вид вооружения на близких дистанциях. Использует боеприпасы .50 калибра. 
   suffix: WH40K
   components:
   - type: Sprite
