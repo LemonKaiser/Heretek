@@ -11,3 +11,17 @@
     sprite: _WH40K/Clothing/Shoes/Boots/combatboots.rsi
   - type: ClothingSlowOnDamageModifier
     modifier: 0.5
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesCommissarBoots
+  name: сапоги комиссара
+  description: Тяжёлые сапоги, принадлежащие самому комиссару. Мы лёд под ногами комиссара...
+  suffix: WH40K
+  components: 
+  - type: Sprite
+    sprite: _WH40K\Clothing\Shoes\Boots\commissar.rsi
+  - type: Clothing
+    sprite: _WH40K\Clothing\Shoes\Boots\commissar.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.4

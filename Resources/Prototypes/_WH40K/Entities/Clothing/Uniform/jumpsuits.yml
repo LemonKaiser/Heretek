@@ -21,3 +21,15 @@
     sprite: _WH40K/Clothing/Uniforms/Jumpsuit/voidsman.rsi
   - type: Clothing
     sprite: _WH40K/Clothing/Uniforms/Jumpsuit/voidsman.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCommissar
+  name: униформа комиссара 
+  description: Униформа боевого командира Астра Милитарум - комиссара. От неё пахнет ужасом врагов и подчинённых.
+  suffix: WH40K
+  components: 
+  - type: Sprite
+    sprite: _WH40K\Clothing\Uniforms\Jumpsuit\commissar.rsi
+  - type: Clothing
+    sprite: _WH40K\Clothing\Uniforms\Jumpsuit\commissar.rsi

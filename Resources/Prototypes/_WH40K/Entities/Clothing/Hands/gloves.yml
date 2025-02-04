@@ -2,11 +2,24 @@
   parent: ClothingHandsGlovesColorBlack
   id: ClothingHandsGlovesCombatVoidsman
   name: боевые перчатки
-  description: Боевые перчатки флота
+  description: Боевые перчатки флота.
   suffix: WH40K, войдсмены
   components:
   - type: Sprite
     sprite: _WH40K/Clothing/Hands/Gloves/v_sergeant.rsi
   - type: Clothing
     sprite: _WH40K/Clothing/Hands/Gloves/v_sergeant.rsi
+  - type: Insulated
+
+- type: entity
+  parent: ClothingHandsGlovesColorBlack
+  id: ClothingHandsGlovesCombatCommissar
+  name: перчатки комиссара
+  description: Крайне удобны для одновременного удержания болт-пистолета и пиломеча в одних руках.
+  suffix: WH40K
+  components: 
+  - type: Sprite
+    sprite: _WH40K\Clothing\Hands\Gloves\commissar.rsi
+  - type: Clothing
+    sprite: _WH40K\Clothing\Hands\Gloves\commissar.rsi
   - type: Insulated

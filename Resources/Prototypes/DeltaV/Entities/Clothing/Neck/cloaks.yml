@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCJ
-  name: chief justice's cloak
-  description: A hefty cloak adorned with a modest insignia and grand fur trim.
+  name: флотский офицерский плащ
+  description: Эта вещь является атрибутом лучших из лучших на этом судне. Уважайте носящего её.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Cloaks/cjcloak.rsi

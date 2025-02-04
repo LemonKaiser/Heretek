@@ -51,3 +51,30 @@
   - type: ExplosionResistance
     damageCoefficient: 0.65
   - type: GroupExamine
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: ClothingOuterArmorCommissar
+  name: куртка комиссара
+  description: Комиссарская куртка - вот он, символ НАСТОЯЩЕЙ власти на поле боя. 
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/OuterClothing/Armor/commissar.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/OuterClothing/Armor/commissar.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.55
+        Heat: 0.55
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: GroupExamine

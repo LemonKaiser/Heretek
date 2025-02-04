@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCommissar
+  name: фуражка комиссара
+  description: Идеальный головной убор для выкриков в духе 'ВПЕРЁД, СОБАКИ!'
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K\Clothing\Head\Hats\commissar.rsi
+  - type: Clothing
+    sprite: _WH40K\Clothing\Head\Hats\commissar.rsi
