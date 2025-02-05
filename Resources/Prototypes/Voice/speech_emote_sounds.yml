@@ -34,6 +34,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    Battlecry:
+      collection: MaleBattlecry
 
 - type: emoteSounds
   id: FemaleHuman
@@ -70,7 +72,9 @@
       collection: Whistles
     Weh:
       collection: Weh
-
+    Battlecry:
+      collection: FemaleBattlecry
+      
 - type: emoteSounds
   id: MaleReptilian
   params:
