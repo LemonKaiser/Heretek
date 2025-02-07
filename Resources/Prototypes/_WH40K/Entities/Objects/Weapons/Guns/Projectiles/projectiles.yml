@@ -47,3 +47,21 @@
     radius: 3.5
     color: Blue
     energy: 0.5
+
+- type: entity
+  id: BulletBolter
+  name: пуля болтера
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components: 
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 45
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 0.5
+    intensitySlope: 0.5
+    totalIntensity: 0.5 
+    maxTileBreak: 0

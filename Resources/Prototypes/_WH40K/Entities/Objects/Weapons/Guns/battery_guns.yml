@@ -9,7 +9,6 @@
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
-    - FullAuto
     soundGunshot:
       path: /Audio/_WH40K/Weapons/Guns/Gunshots/lasgunpew.ogg
   - type: MagazineAmmoProvider
@@ -31,8 +30,7 @@
       gun_magazine: !type:ContainerSlot
   - type: Sprite
     sprite: _WH40K/Objects/Weapons/Guns/Battery/lasgun.rsi
-#    scale: 0.8, 0.8
-#    Scale: 0.8, 0.8
+    scale: 0.8,0.8
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -66,7 +64,7 @@
   name: плазма-пистолет
   parent: WeaponLaserWH40KEnergy
   id: WeaponLaserPlasmaPistol
-  description: Уменьшенная версия Плазменной Винтовки, не смотря на размер не потерял в мощности, чего не скажешь о размере его топливного бака. Прекрасное личное оружие офицеров по всему империуму.
+  description: Уменьшенная версия плазменной винтовки, не смотря на размер не потерял в мощности, чего не скажешь о размере его топливного бака. Прекрасное личное оружие офицеров по всему империуму.
   suffix: WH40K
   components:
   - type: Sprite
@@ -88,6 +86,14 @@
             - PlasmPowerCellPistol
   - type: Item
     sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmapistol.rsi
+    size: Small
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    slots:
+    - Belt
 
 - type: entity
   name: плазма-винтовка
@@ -96,6 +102,10 @@
   description: Пожалуй, самое известное и эффективное оружие Империума, встречающееся во всех его войсках.
   suffix: WH40K
   components:
+  - type: Item
+    size: Huge
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmagun_in-hands.rsi
+  - type: GunRequiresWield
   - type: Sprite
     sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmagun.rsi
   - type: Clothing
@@ -115,8 +125,6 @@
         whitelist:
           tags:
             - PlasmPowerCellGun
-  - type: Item
-    sprite: _WH40K/Objects/Weapons/Guns/Battery/plasmagun_in-hands.rsi
 
 - type: entity
   name: мельта-винтовка
@@ -127,6 +135,7 @@
   components:
   - type: Sprite
     sprite: _WH40K/Objects/Weapons/Guns/Battery/meltagun.rsi
+  - type: GunRequiresWield
   - type: Gun
     fireRate: 1
     selectedMode: SemiAuto

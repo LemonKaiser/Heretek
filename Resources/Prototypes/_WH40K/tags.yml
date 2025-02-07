@@ -12,3 +12,9 @@
 
 - type: Tag
   id: MagazineCombatShotgun
+
+- type: Tag
+  id: CartridgeBolter75
+  
+- type: Tag
+  id: MagazineBolter75

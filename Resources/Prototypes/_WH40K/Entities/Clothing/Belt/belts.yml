@@ -3,6 +3,7 @@
   id: WHClothingBeltSheath
   name: ножны для сабли
   description: Предназначены для силового меча Империума!
+  suffix: WH40K
   components:
   - type: Sprite
     sprite: _WH40K/Clothing/Belt/sheath_for_power_saber.rsi
