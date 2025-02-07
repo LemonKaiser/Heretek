@@ -14,7 +14,7 @@
   - type: SolutionContainerManager
     solutions:
       injector:
-        maxVol: 15
+        maxVol: 20
   - type: Injector
     injectOnly: false
     delay: 0.5
@@ -39,7 +39,7 @@
   - type: SolutionContainerManager
     solutions:
       hypospray:
-        maxVol: 20
+        maxVol: 25
   - type: RefillableSolution
     solution: hypospray
   - type: ExaminableSolution
