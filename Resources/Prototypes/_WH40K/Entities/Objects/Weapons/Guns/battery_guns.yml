@@ -8,6 +8,7 @@
     fireRate: 3
     selectedMode: SemiAuto
     availableModes:
+    - FullAuto
     - SemiAuto
     soundGunshot:
       path: /Audio/_WH40K/Weapons/Guns/Gunshots/lasgunpew.ogg
