@@ -78,3 +78,48 @@
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: GroupExamine
+  
+- type: entity
+  parent: ClothingOuterBaseMedium
+  id: ClothingOuterArmorFlakVest
+  name: противоосколочный жилет
+  description: Достаточно крепкая и лёгкая броня, используемая в основной имперской гвардией.
+  suffix: WH40K, Гвардия
+  components: 
+  - type: Sprite
+    sprite: _WH40K/Clothing/OuterClothing/Armor/flakvest.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/OuterClothing/Armor/flakvest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.7
+        Heat: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+    
+- type: entity
+  parent: ClothingOuterBaseMedium
+  id: ClothingOuterArmorAdvancedFlakVest
+  name: панцирная броня
+  description: Крепкая броня, почти полностью покрывающее тело и дающая хорошую защиту от большинства видов повреждений.
+  suffix: WH40K, Гвардия
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/OuterClothing/Armor/flakvestadv.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/OuterClothing/Armor/flakvestadv.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.4
+        Heat: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9

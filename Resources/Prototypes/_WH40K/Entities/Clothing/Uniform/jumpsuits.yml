@@ -33,3 +33,15 @@
     sprite: _WH40K/Clothing/Uniforms/Jumpsuit/commissar.rsi
   - type: Clothing
     sprite: _WH40K/Clothing/Uniforms/Jumpsuit/commissar.rsi
+    
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformJumpsuitGuardsman
+  name: униформа гвардейца
+  description: Униформа, выдающаяся членам регулярной армии империума - имперской гвардии.
+  suffix: WH40K, Гвардия
+  components: 
+  - type: Sprite
+    sprite: _WH40K/Clothing/Uniforms/Jumpsuit/guardsman.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Uniforms/Jumpsuit/guardsman.rsi
