@@ -65,6 +65,9 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     sprite: _WH40K/Objects/Weapons/Guns/Bolters/pistol.rsi
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg
   - type: Gun
     fireRate: 1.5
     selectedMode: SemiAuto

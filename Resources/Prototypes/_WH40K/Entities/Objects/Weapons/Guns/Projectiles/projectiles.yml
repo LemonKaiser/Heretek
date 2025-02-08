@@ -57,11 +57,11 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 45
+        Piercing: 60
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
     maxIntensity: 0.5
     intensitySlope: 0.5
-    totalIntensity: 0.5 
+    totalIntensity: 0.5
     maxTileBreak: 0
