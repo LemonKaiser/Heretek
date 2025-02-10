@@ -11496,3 +11496,56 @@ Entries:
   id: 6828
   time: '2025-02-09T15:54:06.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1739
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Stations SMES now store 120MW of power, up from 8MW. They should
+        actually do what they are intended to do now. 
+  id: 6829
+  time: '2025-02-10T02:23:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1752
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Fixed Harpies missing 8 different emotes.
+  id: 6830
+  time: '2025-02-10T08:54:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1751
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Thrown objects will no longer collide with entities that are laying
+        down(voluntarily or otherwise). This includes objects thrown by space
+        wind, which will now fly over you once you've been critted by floor
+        tiles.
+  id: 6831
+  time: '2025-02-10T08:59:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1754
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Station AI can now helpfully assist by configuring the station's Atmos
+        system, in order to provide crew with breathable oxygen, and definitely
+        not anything malicious. You can also now ask the AI to assist with the
+        station's power by having it turn on or off the supermatter for safe
+        operation.
+    - type: Add
+      message: >-
+        The Mystagogue's locker now starts with an AI Upload circuitboard, as
+        well as 4 basic AI lawset chips in his locker.
+  id: 6832
+  time: '2025-02-10T18:30:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1761
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Added functionality for "Permanent" lawsets that cannot be removed by
+        the AI Upload. Currently used by ANTIMOV, which is needed for the MALF
+        AI Antagonist.
+  id: 6833
+  time: '2025-02-10T18:30:59.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1762
