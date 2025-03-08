@@ -3,7 +3,7 @@
 
 - type: Tag
   id: PlasmPowerCellGun
-  
+
 - type: Tag
   id: PlasmPowerCellPistol
 
@@ -15,9 +15,10 @@
 
 - type: Tag
   id: CartridgeBolter75
-  
-- type: Tag
-  id: MagazineBolter75
-  
+
 - type: Tag
   id: MagazineBolterPistol75
+
+- type: Tag
+  id: MagazineBolter75
+

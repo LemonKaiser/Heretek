@@ -8,6 +8,14 @@
   - type: PaintableAirlock
     department: Justice
 
+- type: entity
+  parent: AirlockScience
+  id: AirlockRobotics
+  suffix: Robotics
+  components:
+  - type: Sprite
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/roboticist.rsi
+
 # Glass
 
 - type: entity
@@ -19,3 +27,11 @@
     sprite: NES/Structures/Doors/Airlocks/Glass/justice.rsi #NES14-Changes
   - type: PaintableAirlock
     department: Justice
+
+- type: entity
+  parent: AirlockScienceGlass
+  id: AirlockRoboticsGlass
+  suffix: Robotics
+  components:
+  - type: Sprite
+    sprite: DeltaV/Structures/Doors/Airlocks/Glass/roboticist.rsi
