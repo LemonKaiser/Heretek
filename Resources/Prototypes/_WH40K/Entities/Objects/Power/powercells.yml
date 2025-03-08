@@ -24,6 +24,7 @@
     sprite: _WH40K/Objects/Power/power_cells.rsi
     layers:
     - state: lasgun
+    scale: 0.8, 0.8
   - type: Tag
     tags:
       - LasgunPowerCell
@@ -41,6 +42,7 @@
     sprite: _WH40K/Objects/Power/power_cells.rsi
     layers:
     - state: plasmagun
+    scale: 0.8, 0.8
   - type: Tag
     tags:
       - PlasmPowerCellGun
@@ -61,6 +63,7 @@
     sprite: _WH40K/Objects/Power/power_cells.rsi
     layers:
     - state: plasmapistol
+    scale: 0.8, 0.8
   - type: Tag
     tags:
       - PlasmPowerCellPistol

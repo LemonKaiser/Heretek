@@ -132,3 +132,6 @@ language-Eldritch-description =
 
 language-Penguin-name = Penguin
 language-Penguin-description = Bwaap!
+
+language-Tyranid-name = Tyranid
+language-Tyranid-description = Use it to communicate with your hive-homies
