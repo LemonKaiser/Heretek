@@ -1,6 +1,6 @@
-ent-BaseCartridgeLightRifle = .30 болтер
+ent-BaseCartridgeLightRifle = патрон (.30 винтовочный)
     .desc = { ent-BaseCartridge.desc }
-ent-CartridgeLightRifle = .30 болтер
+ent-CartridgeLightRifle = патрон (.30 винтовочный)
     .desc = { ent-BaseCartridgeLightRifle.desc }
 ent-CartridgeLightRiflePractice = патрон (.30 винтовочный учебный)
     .desc = { ent-BaseCartridgeLightRifle.desc }

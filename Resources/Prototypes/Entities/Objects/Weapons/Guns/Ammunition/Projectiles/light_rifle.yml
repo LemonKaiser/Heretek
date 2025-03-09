@@ -1,38 +1,13 @@
 - type: entity
   id: BulletLightRifle
   name: bullet (.20 rifle)
-  parent: BaseBulletTrigger
+  parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 40
-  - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: Default
-    maxIntensity: 0.2
-    intensitySlope: 0.2
-    totalIntensity: 0.2
-    maxTileBreak: 0
-
-- type: entity
-  id: BulletLightRifleTWO
-  name: bullet (.20 rifle)
-  parent: BaseBulletTrigger
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Piercing: 50
-  - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: Default
-    maxIntensity: 0.3
-    intensitySlope: 0.3
-    totalIntensity: 0.3
-    maxTileBreak: 0
+        Piercing: 19
 
 - type: entity
   id: BulletLightRiflePractice

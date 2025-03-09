@@ -72,10 +72,10 @@
     staminaCost: 7.5
 
 - type: entity
-  name: Болтер-ган системы "Лектер" генерация два
+  name: AKMS
   parent: BaseWeaponRifle
   id: WeaponRifleAk
-  description: Этот Болтер-ган системы "Лектер" воссоздан по древним сшк.
+  description: An iconic weapon of war. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
