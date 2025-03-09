@@ -9,7 +9,7 @@
     - Cartridge
     - CartridgeLightRifle
   - type: CartridgeAmmo
-    proto: BulletLightRifle
+    proto: BulletLightRifleTWO
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
@@ -24,7 +24,7 @@
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
-    proto: BulletLightRifle
+    proto: BulletLightRifleTWO
 
 - type: entity
   id: CartridgeLightRiflePractice

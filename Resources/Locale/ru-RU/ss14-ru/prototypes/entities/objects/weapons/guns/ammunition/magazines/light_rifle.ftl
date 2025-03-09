@@ -1,10 +1,10 @@
-ent-BaseMagazineLightRifle = магазин (.30 винтовочные)
+ent-BaseMagazineLightRifle = магазин .30 болтер
     .desc = { ent-BaseItem.desc }
 ent-MagazineLightRifleBox = короб патронов L6 SAW (.30 винтовочные)
     .desc = { ent-BaseMagazineLightRifle.desc }
-ent-MagazineLightRifle = магазин (.30 винтовочные)
+ent-MagazineLightRifle = магазин .30 болтер
     .desc = { ent-BaseMagazineLightRifle.desc }
-ent-MagazineLightRifleEmpty = магазин (.30 винтовочные любые)
+ent-MagazineLightRifleEmpty = магазин .30 болтер
     .suffix = Пустой
     .desc = { ent-MagazineLightRifle.desc }
 ent-MagazineLightRiflePractice = магазин (.30 винтовочные учебные)

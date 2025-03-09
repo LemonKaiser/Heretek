@@ -33,6 +33,24 @@
     fireCost: 50
 
 - type: entity
+  name: батарея лонглаза
+  id: LasgunPowerCelonglass
+  parent: WH40KPowerCell
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Power/power_cells.rsi
+    layers:
+    - state: lasgun
+    scale: 0.8, 0.8
+  - type: Tag
+    tags:
+      - LasgunPowerCelonglass
+  - type: HitscanBatteryAmmoProvider
+    proto: RedLaserI
+    fireCost: 150
+
+- type: entity
   name: контейнер плазма-винтовки
   id: PlasmGunPowerCell
   parent: WH40KPowerCell
