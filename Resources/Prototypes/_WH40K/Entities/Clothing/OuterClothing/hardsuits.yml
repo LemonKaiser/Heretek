@@ -63,7 +63,7 @@
     damageCoefficient: 0.40
   - type: TemperatureProtection
     coefficient: 0.01
-  - type: Armor 
+  - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.40
@@ -82,7 +82,7 @@
   parent: ClothingOuterHardsuitVoidsmanStandard
   id: ClothingOuterHardsuitVoidsmanSergeant
   name: скафандр сержанта войдсмена
-  description: Укреплённая сержантская версия скафандра войдсмена. 
+  description: Укреплённая сержантская версия скафандра войдсмена.
   suffix: WH40K, войдсмены
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
     damageCoefficient: 0.40
   - type: TemperatureProtection
     coefficient: 0.01
-  - type: Armor 
+  - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.50
@@ -123,7 +123,7 @@
     sprite: _WH40K/Clothing/OuterClothing/Hardsuits/v_grenadier.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.30
-  - type: Armor 
+  - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.50
@@ -132,3 +132,109 @@
         Radiation: 0.50
         Caustic: 0.50
         Heat: 0.50
+
+# техножречество
+
+#инж
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTechpriest
+  name: скафандр техножреца
+  description: Скафандр для техножрецов, что ещё слишком слабо оснащены бионикой.
+  suffix: WH40K, АдМехи
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/OuterClothing/Hardsuits/techpriest.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/OuterClothing/Hardsuits/techpriest.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.85
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+        Shock: 0.7
+        Caustic: 0.5
+        Radiation: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTechpriest
+
+#СИ
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTechpriestMarsMagos
+  name: роба магоса
+  description: Роба магоса Марса...
+  suffix: WH40K, АдМехи
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/OuterClothing/Robes/magos_mars.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/OuterClothing/Robes/magos_mars.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: FireProtection
+    reduction: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.7
+        Shock: 0.7
+        Heat: 0.4
+        Radiation: 0.05
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTechpriestMarsMagos
+
+#РХБЗЗ
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTechpriestMarsSkitarii
+  name: Роба скитарийца
+  description: Священное одеяние.
+  suffix: WH40K, АдМехи
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/OuterClothing/Robes/skitarii_mars.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/OuterClothing/Robes/skitarii_mars.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.6
+        Heat: 0.1
+        Cold: 0.1
+        Shock: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetTechpriestMarsSkitarii
