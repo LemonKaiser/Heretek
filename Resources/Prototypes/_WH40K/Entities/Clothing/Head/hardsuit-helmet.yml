@@ -95,3 +95,69 @@
   - type: Item
     size: Small
     storedRotation: -90
+
+#Техножречество
+
+#инж
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitTechpriest
+  name: шлем скафандра техножреца
+  description: Шлем скафандра для техножрецов, что ещё слишком слабо оснащены бионикой.
+  suffix: WH40K, АдМехи
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hardsuits/techpriest.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hardsuits/techpriest.rsi
+  - type: PointLight
+    color: "#ffdbad"
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+
+#СИ
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitTechpriestMarsMagos
+  name: капюшон магоса
+  description: Шлем скафандра магоса с капюшоном робы.
+  suffix: WH40K, АдМехи
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hoods/hood-magos_mars.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hoods/hood-magos_mars.rsi
+  - type: PointLight
+    color: "#ffdbad"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: FireProtection
+    reduction: 0.2
+
+#РХБЗЗ
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetTechpriestMarsSkitarii
+  name: капюшон робы скитарийца
+  description: Священное одеяние.
+  suffix: WH40K, АдМехи
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hoods/hood-skitarii_mars.rsi
+  - type: PointLight
+    color: "#ffdbad"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
