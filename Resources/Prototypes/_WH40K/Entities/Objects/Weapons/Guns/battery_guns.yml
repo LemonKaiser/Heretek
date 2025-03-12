@@ -10,7 +10,6 @@
     availableModes:
     - FullAuto
     - SemiAuto
-    - FullAuto
     soundGunshot:
       path: /Audio/_WH40K/Weapons/Guns/Gunshots/lasgunpew.ogg
   - type: MagazineAmmoProvider
@@ -57,6 +56,50 @@
   components:
   - type: Clothing
     sprite: _WH40K/Objects/Weapons/Guns/Battery/lasgun_in-hands.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+    
+- type: entity
+  name: лонглаз
+  parent: [WeaponLaserWH40KEnergy, BaseGunWieldable]
+  id: WeaponLaserLonglas
+  description: Модифицированный вариант обычного лазгана, обладающий всеми атрибутами снайперской винтовки, однако, ставший более дорогим в изготовлении и требующим немалые умственные способности для правильного использования.
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/longlas.rsi
+    scale: 0.85,0.85
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/longlas_in-hands.rsi
+    size: Huge
+    shape:
+    - 0,0,4,1
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+  - type: Telescope
+  - type: GunRequiresWield
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LonglasPowerCell
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - LonglasPowerCell
+  - type: Clothing
+    sprite: _WH40K/Objects/Weapons/Guns/Battery/longlas_in-hands.rsi
     quickEquip: false
     slots:
     - Back

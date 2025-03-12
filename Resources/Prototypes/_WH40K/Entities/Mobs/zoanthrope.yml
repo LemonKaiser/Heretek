@@ -102,6 +102,8 @@
   - type: ActiveRadio
     channels:
     - Hive
+  - type: Puller
+    needsHands: false
   
 - type: speechSounds
   id: Zoanthrope

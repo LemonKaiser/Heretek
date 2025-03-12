@@ -36,6 +36,7 @@
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: base
+    scale: 1.3, 1.3
   - type: Fixtures
     fixtures:
       fix1:
