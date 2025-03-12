@@ -1,11 +1,12 @@
 - type: entity
   parent: ClothingBackpack
-  id: ClothingBackpackEcclesia
-  name: techpriest backpack
-  description: It's a very robust backpack.
+  id: ClothingBackpackSkitarii
+  name: радиевый ранец
+  description: Ранец скитарийцев.
+  suffix: WH40K, АдМехи
   components:
   - type: Sprite
-    sprite: _WH40K/Clothing/Back/Backpacks/ecclesia.rsi
+    sprite: _WH40K/Clothing/Back/Backpacks/skitarii.rsi
   - type: GasTank
     outputPressure: 21.3
     air:
@@ -36,3 +37,41 @@
         type: SurveillanceCameraSetupBoundUi
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
+  - type: TelecomServer
+  - type: ContainerContainer
+    containers:
+      key_slots: !type:Container
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+  - type: EncryptionKeyHolder
+    keysExtractionMethod: Prying
+    keySlots: 1
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackTechpriest
+  name: ранец техножреца
+  description: Ранец, что пока не имеет особо выделяющихся модулей.
+  suffix: WH40K, АдМехи
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Back/Backpacks/techpriest.rsi
+  - type: GasTank
+    outputPressure: 21.3
+    air:
+      volume: 10
+      temperature: 293.15
+    tankLowPressure: 30.0
+  - type: TelecomServer
+  - type: ContainerContainer
+    containers:
+      key_slots: !type:Container
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+  - type: EncryptionKeyHolder
+    keysExtractionMethod: Prying
+    keySlots: 1

@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckRobeTechpriestMars
+  name: Роба техножреца
+  description: description-techpriest-mars
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Neck/Robes/techpriest_mars.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckRobeGenetorTechpriestMars
+  name: Роба техножреца
+  description: description-genetor-techpriest-mars
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Neck/Robes/genetor_mars.rsi
