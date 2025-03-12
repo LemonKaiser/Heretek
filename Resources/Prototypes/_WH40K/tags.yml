@@ -1,5 +1,8 @@
 - type: Tag
   id: LasgunPowerCell
+  
+- type: Tag
+  id: LonglasPowerCell
 
 - type: Tag
   id: PlasmPowerCellGun

@@ -26,7 +26,6 @@
             - MagazineBolter75
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeBolter
         priority: 1
         whitelist:
           tags:
