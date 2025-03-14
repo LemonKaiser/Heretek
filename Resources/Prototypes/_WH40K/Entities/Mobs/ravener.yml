@@ -1,19 +1,19 @@
 - type: entity
-  id: MobGenestealer
-  name: генокрад
-  description: Перед вами находится одно из наиболее смертоносных существ роя тиранидов - генокрады, чьи острые когти и безумные рефлексы стали причиной гибели множества людей.
+  id: MobRavener
+  name: Равенер
+  description: Змееподобное чудище, использующее свои передние лезвиеподобные конечности для разрывания врагов, стен и грунта.
   parent: SimpleSpaceMobBase
   suffix: WH40K, Тираниды
   components: 
   - type: TypingIndicator
     proto: alien
   - type: Speech
-    speechSounds: Genestealer
+    speechSounds: Genestealer #Заглушка
   - type: NpcFactionMember
     factions:
     - SimpleHostile
   - type: Tool
-    speedModifier: 1.5
+    speedModifier: 2.5
     qualities:
       - Prying
   - type: Prying
@@ -32,11 +32,10 @@
       task: SimpleHostileCompound 
   - type: Sprite
     drawdepth: Mobs
-    sprite: _WH40K/Mobs/genestealer.rsi
+    sprite: _WH40K/Mobs/ravener.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: base
-    scale: 1.3, 1.3
   - type: Fixtures
     fixtures:
       fix1:
@@ -57,7 +56,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      150: Dead
+      200: Dead
   - type: MovementSpeedModifier
     baseWalkSpeed: 4
     baseSprintSpeed: 5.8
@@ -81,11 +80,10 @@
     angle: 0
     animation: WeaponArcBite
     soundHit:
-      collection: GenestealerAttack
+      collection: GenestealerAttack #Заглушка
     damage:
       types:
-        Piercing: 5
-        Slash: 30
+        Slash: 45
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
@@ -100,17 +98,3 @@
       - FootstepSound
       - DoorBumpOpener
     
-- type: speechSounds
-  id: Genestealer
-  saySound:
-    path: /Audio/_WH40K/Voice/Tyranid/genestealerspeech.ogg
-  askSound:
-    path: /Audio/_WH40K/Voice/Tyranid/genestealerspeech.ogg
-  exclaimSound:
-    path: /Audio/_WH40K/Voice/Tyranid/genestealerspeech.ogg
-    
-- type: soundCollection
-  id: GenestealerAttack
-  files:
-    - /Audio/_WH40K/Voice/Tyranid/genestealerattack1.ogg
-    - /Audio/_WH40K/Voice/Tyranid/genestealerattack2.ogg

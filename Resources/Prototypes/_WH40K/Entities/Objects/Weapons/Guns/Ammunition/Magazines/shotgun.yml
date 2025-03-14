@@ -21,7 +21,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: _WH40K/Objects/Weapons/Guns/Ammonition/Magazine/Shotgun/m12.rsi
+    sprite: _WH40K/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi
     scale: 0.8, 0.8
     Scale: 0.8, 0.8
     layers:
