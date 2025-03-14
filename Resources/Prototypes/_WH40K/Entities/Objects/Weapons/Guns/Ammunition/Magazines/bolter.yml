@@ -15,7 +15,7 @@
       tags:
         - CartridgeBolter75
   - type: Sprite
-    sprite: _WH40K/Objects/Weapons/Guns/Ammonition/Magazine/Bolter/bolter.rsi
+    sprite: _WH40K/Objects/Weapons/Guns/Ammunition/Magazine/Bolter/bolter.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -37,7 +37,7 @@
       tags:
         - CartridgeBolter75
   - type: Sprite
-    sprite: _WH40K/Objects/Weapons/Guns/Ammonition/Magazine/Bolter/pistol.rsi
+    sprite: _WH40K/Objects/Weapons/Guns/Ammunition/Magazine/Bolter/pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
