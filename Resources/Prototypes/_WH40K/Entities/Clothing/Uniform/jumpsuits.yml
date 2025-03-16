@@ -51,7 +51,7 @@
   id: ClothingUniformJumpsuitTechpriest
   name: комбинезон техножреца
   description: Комбинезон, выдающийся всем техножрецам, что ещё имеют гуманоидную форму тела.
-  suffix: WH40K
+  suffix: WH40K, АдМехи
   components:
   - type: Sprite
     sprite: _WH40K/Clothing/Uniforms/Jumpsuit/techpriest.rsi

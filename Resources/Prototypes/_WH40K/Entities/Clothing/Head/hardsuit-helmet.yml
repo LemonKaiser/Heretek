@@ -152,8 +152,7 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    heatingCoefficient: 0.005
-    coolingCoefficient: 0.005
+    coefficient: 0.005
   - type: Armor
     modifiers:
       coefficients:
@@ -161,3 +160,28 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+- type: entity
+  parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadEVAHelmetBase]
+  id: ClothingHeadHelmetTechpriestMarsSkitariiAvangard
+  name: шлем скитарийца
+  description: Священное одеяние.
+  suffix: WH40K, АдМехи
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hardsuits/vanguard_skitarii.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hardsuits/vanguard_skitarii.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.50
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.90

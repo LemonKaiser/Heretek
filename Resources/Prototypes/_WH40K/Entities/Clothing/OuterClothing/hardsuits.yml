@@ -207,7 +207,7 @@
   id: ClothingOuterHardsuitTechpriestMarsSkitarii
   name: Роба скитарийца
   description: Священное одеяние.
-  suffix: WH40K, АдМехи
+  suffix: WH40K, АдМехи, Егери
   components:
   - type: Sprite
     sprite: _WH40K/Clothing/OuterClothing/Robes/skitarii_mars.rsi
@@ -217,8 +217,7 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    heatingCoefficient: 0.001
-    coolingCoefficient: 0.001
+    coefficient: 0.001
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: Armor
@@ -238,3 +237,38 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetTechpriestMarsSkitarii
+
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTechpriestMarsSkitariiAvangard
+  name: Роба скитарийца
+  description: Священное одеяние.
+  suffix: WH40K, АдМехи, Авангард
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/OuterClothing/Robes/vanguard_skitarii_mars.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/OuterClothing/Robes/vanguard_skitarii_mars.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.6
+        Heat: 0.1
+        Cold: 0.1
+        Shock: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier

@@ -31,7 +31,7 @@
   id: ClothingShoesBootsworkTechpriest
   name: рабочие ботинки
   description: Рабочие ботинки без каких либо дополнений.
-  suffix: WH40K
+  suffix: WH40K, АдМехи
   components:
   - type: Sprite
     sprite: _WH40K/Clothing/Shoes/Boots/workboots.rsi
@@ -44,7 +44,7 @@
   id: ClothingShoesArmoredWorkbootsTechpriest
   name: бронированные рабочие ботинки
   description: Рабочие сапоги оснащённые бронёй для работ в не самых благоприятных условиях.
-  suffix: WH40K
+  suffix: WH40K, АдМехи
   components:
   - type: Sprite
     sprite: _WH40K/Clothing/Shoes/Boots/armored_workboots.rsi

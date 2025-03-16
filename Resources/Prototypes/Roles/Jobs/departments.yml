@@ -7,6 +7,7 @@
   - Quartermaster
   - SalvageSpecialist
   - MailCarrier # Nyanotrasen - MailCarrier, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Cargo/mail-carrier.yml
+  editorHidden: true
 
 - type: department
   id: Civilian
@@ -33,6 +34,7 @@
   - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
   - Prisoner # Nyanotrasen - Prisoner, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
   - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
+  editorHidden: true
 
 - type: department
   id: Command
@@ -59,6 +61,7 @@
   - DeathSquad
   - AdministrativeAssistant # Delta V - Administrative Assistant, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Command/admin_assistant.yml
   primary: false
+  editorHidden: true
   weight: 100
 
 - type: department
@@ -70,6 +73,7 @@
   - NanotrasenRepresentative # Goobstation
   - Magistrate # Goobstation
   primary: false
+  editorHidden: true
   weight: 101
 
 - type: department
@@ -82,6 +86,7 @@
   - SeniorEngineer
   - StationEngineer
   - TechnicalAssistant
+  editorHidden: true
 
 - type: department
   id: Medical
@@ -96,6 +101,7 @@
   - Paramedic
   - SeniorPhysician
   - MedicalBorg  # Delta V - Medical Borg, see Resources/Prototypes/DeltaV/Roles/Jobs/Medical/medicalborg.yml
+  editorHidden: true
 
 - type: department
   id: Security
@@ -111,6 +117,7 @@
   - Warden
   - PrisonGuard # Nyanotrasen - PrisonGuard, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Security/prisonguard.yml
   - Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
+  editorHidden: true
 
 - type: department
   id: Epistemics # DeltaV - Epistemics Department replacing Science
@@ -125,6 +132,7 @@
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
   - Librarian
   - Roboticist
+  editorHidden: true
 
 - type: department
   id: Silicon
@@ -133,6 +141,7 @@
   roles:
   - Borg
   - StationAi
+  editorHidden: true
 
 - type: department
   id: Specific
@@ -149,3 +158,4 @@
   - Prisoner # Nyanotrasen - Prisoner, see Resrouces/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
   - Brigmedic # DeltaV - Corpsman, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
   primary: false
+  editorHidden: true
