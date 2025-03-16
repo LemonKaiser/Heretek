@@ -7,7 +7,7 @@
   suffix: WH40K
   components:
   - type: SpawnPoint
-    job_id: PassengerWH40K
+    job_id: Passenger
   - type: Sprite
     layers:
       - state: green
