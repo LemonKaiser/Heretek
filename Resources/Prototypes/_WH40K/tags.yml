@@ -26,6 +26,12 @@
   id: MagazineBolter75
 
 - type: Tag
+  id: Cartridge308
+
+- type: Tag
+  id: MagazineRad
+  
+- type: Tag
   id: CartridgeLightAutogun
   
 - type: Tag
