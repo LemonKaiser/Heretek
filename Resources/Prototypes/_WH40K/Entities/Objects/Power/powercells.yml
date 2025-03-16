@@ -6,8 +6,8 @@
   - type: Item
     storedRotation: -90
   - type: Battery
-    maxCharge: 1500
-    startingCharge: 1500
+    maxCharge: 2000
+    startingCharge: 2000
     pricePerJoule: 0.15
   - type: PowerCell
   - type: Appearance
@@ -31,6 +31,28 @@
   - type: HitscanBatteryAmmoProvider
     proto: RedLaser
     fireCost: 50
+    
+- type: entity
+  name: батарея лонглаза
+  id: LonglasPowerCell
+  parent: WH40KPowerCell
+  suffix: WH40K
+  components:
+  - type: Sprite
+    sprite: _WH40K/Objects/Power/power_cells.rsi
+    layers:
+    - state: lasgun
+    scale: 0.8, 0.8
+  - type: Tag
+    tags:
+      - LonglasPowerCell
+  - type: HitscanBatteryAmmoProvider
+    proto: RedLaserLong
+    fireCost: 150
+  - type: Battery
+    maxCharge: 2250
+    startingCharge: 2250
+    pricePerJoule: 0.15
 
 - type: entity
   name: контейнер плазма-винтовки

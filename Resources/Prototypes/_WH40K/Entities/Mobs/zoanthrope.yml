@@ -33,7 +33,7 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-          radius: 0.30
+          radius: 0.70
         density: 80
         mask:
         - FlyingMobMask
@@ -102,6 +102,8 @@
   - type: ActiveRadio
     channels:
     - Hive
+  - type: Puller
+    needsHands: false
   
 - type: speechSounds
   id: Zoanthrope

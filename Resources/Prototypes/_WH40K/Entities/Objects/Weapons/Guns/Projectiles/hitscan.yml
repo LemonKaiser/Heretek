@@ -1,4 +1,19 @@
 - type: hitscan
+  id: RedLaserLong
+  damage:
+    types:
+      Heat: 50
+  muzzleFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_laser
+  travelFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: beam
+  impactFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_laser
+
+- type: hitscan
   id: RedMeltaLaser
   maxLength: 5
   damage:
@@ -30,3 +45,4 @@
   impactFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_blue
+    
