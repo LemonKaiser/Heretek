@@ -9,6 +9,9 @@
     sprite: _WH40K/Clothing/Head/Hats/commissar.rsi
   - type: Clothing
     sprite: _WH40K/Clothing/Head/Hats/commissar.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
     
 - type: entity
   parent: ClothingHeadBase
@@ -21,4 +24,7 @@
     sprite: _WH40K/Clothing/Head/Hats/officer.rsi
   - type: Clothing
     sprite: _WH40K/Clothing/Head/Hats/officer.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
     
