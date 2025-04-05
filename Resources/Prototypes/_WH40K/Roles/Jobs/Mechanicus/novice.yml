@@ -3,7 +3,7 @@
   name: job-name-novice
   description: job-description-novice
   playTimeTracker: JobNovice
-  startingGear: TechnicalAssistantGear
+  startingGear: NoviceGear
   icon: "JobIconNovice"
   supervisors: job-supervisors-engineering
   canBeAntag: true # DeltaV - Can be antagonist
@@ -11,3 +11,12 @@
   - Maintenance
   - Engineering
   - External
+
+- type: startingGear
+  id: NoviceGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitTechpriest
+    back: ClothingBackpackTechpriest
+    shoes: ClothingShoesBootsworkTechpriest
+    belt: ClothingBeltUtilityEngineering
+    neck: ClothingNeckRobeTechpriestMars

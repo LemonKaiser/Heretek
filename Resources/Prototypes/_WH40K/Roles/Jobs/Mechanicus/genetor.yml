@@ -7,7 +7,7 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Mechanicus
       min: 36000 # DeltaV - 10 hours
-  startingGear: AtmosphericTechnicianGear
+  startingGear: GenetorGear
   icon: "JobIconGenetor"
   supervisors: job-supervisors-ce
   access:
@@ -15,3 +15,15 @@
   - Engineering
   - External
   - Atmospherics
+
+- type: startingGear
+  id: GenetorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitTechpriest
+    back: ClothingBackpackTechpriest
+    shoes: ClothingShoesBootsworkTechpriest
+    belt: ClothingBeltUtilityEngineering
+    neck: ClothingNeckRobeGenetorTechpriestMars
+    gloves: ClothingHandsGlovesTechpriest
+    eyes: ClothingEyesHudTechPriest
+    mask: ClothingMaskGasTechPriest
