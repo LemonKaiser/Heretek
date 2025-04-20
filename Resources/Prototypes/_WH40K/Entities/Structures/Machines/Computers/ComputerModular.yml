@@ -34,7 +34,7 @@
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5
-    volume: -2
+    volume: -10
     sound:
       path: /Audio/Ambience/Objects/emf_buzz.ogg
   - type: Physics
@@ -131,7 +131,7 @@
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5
-    volume: -2
+    volume: -10
     sound:
       path: /Audio/Ambience/Objects/emf_buzz.ogg
   - type: Physics
