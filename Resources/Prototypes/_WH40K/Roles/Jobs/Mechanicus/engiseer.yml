@@ -7,7 +7,7 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Mechanicus
       min: 14400 #4 hrs
-  startingGear: StationEngineerGear
+  startingGear: EnginseerGear
   icon: "JobIconEnginseer"
   supervisors: job-supervisors-ce
   access:
@@ -16,3 +16,15 @@
   - External
   extendedAccess:
   - Atmospherics
+
+- type: startingGear
+  id: EnginseerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitTechpriest
+    back: ClothingBackpackTechpriest
+    shoes: ClothingShoesBootsworkTechpriest
+    belt: ClothingBeltUtilityEngineering
+    neck: ClothingNeckRobeTechpriestMars
+    gloves: ClothingHandsGlovesTechpriest
+    eyes: ClothingEyesHudTechPriest
+    outerClothing: ClothingOuterHardsuitTechpriest
