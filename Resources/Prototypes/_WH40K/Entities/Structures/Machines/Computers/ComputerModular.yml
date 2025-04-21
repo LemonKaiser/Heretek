@@ -34,7 +34,7 @@
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5
-    volume: -2
+    volume: -10
     sound:
       path: /Audio/Ambience/Objects/emf_buzz.ogg
   - type: Physics
@@ -49,17 +49,6 @@
     whitelist:
       tags:
         - Sheet
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-1.5,-0.3,1.5,1.2"
-        density: 50
-        mask:
-        - LargeMobMask
-        layer:
-        - WallLayer
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 5
@@ -106,8 +95,6 @@
         showEnts: False
         occludes: True
         ent: null
-      IdCardConsole-privilegedId: !type:ContainerSlot
-      IdCardConsole-targetId: !type:ContainerSlot
 
 - type: entity
   id: AdMechComputerModular
@@ -144,7 +131,7 @@
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5
-    volume: -2
+    volume: -10
     sound:
       path: /Audio/Ambience/Objects/emf_buzz.ogg
   - type: Physics
