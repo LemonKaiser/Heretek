@@ -41,6 +41,7 @@
   - type: Access
     groups:
     - AllAccess
+    - Silicon
     tags:
     - NuclearOperative
     - SyndicateAgent
@@ -106,6 +107,7 @@
     prototypes: [ MobAghostGear ]
   - type: SupermatterImmune
   - type: BypassInteractionChecks
+  - type: PsionicInsulation
 
 - type: entity
   id: ActionAGhostShowSolar

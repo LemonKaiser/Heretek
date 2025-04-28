@@ -3,13 +3,18 @@
   name: job-name-qm
   description: job-description-qm
   playTimeTracker: JobQuartermaster
-  antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
         - Foreigner
         - ForeignerLight
+        - Muted
+    - !type:CharacterEmployerRequirement
+      employers:
+      - OrionExpress
+      - IdrisIncorporated
+      - NanoTrasen
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"
@@ -45,7 +50,7 @@
     back: ClothingBackpackQuartermasterFilled
     shoes: ClothingShoesColorBrown
     id: QuartermasterPDA
-    ears: ClothingHeadsetQM
+    ears: ClothingHeadsetAltCargo # Goobstation
     belt: BoxFolderClipboard
     pocket1: AppraisalTool
   innerClothingSkirt: ClothingUniformJumpskirtQM

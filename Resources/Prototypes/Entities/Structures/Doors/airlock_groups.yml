@@ -15,6 +15,7 @@
     security:    NES/Structures/Doors/Airlocks/Standard/security.rsi #NES14-Changes
     virology:    NES/Structures/Doors/Airlocks/Standard/virology.rsi #NES14-Changes
     justice:     NES/Structures/Doors/Airlocks/Standard/justice.rsi # Delta V - Add Justice Dept #NES14-Changes
+    roboticist:  DeltaV/Structures/Doors/Airlocks/Standard/roboticist.rsi # Added Roboticist Role
 
 - type: AirlockGroup
   id: Glass
@@ -33,6 +34,7 @@
     security:    NES/Structures/Doors/Airlocks/Glass/security.rsi #NES14-Changes
     virology:    NES/Structures/Doors/Airlocks/Glass/virology.rsi #NES14-Changes
     justice:     DeltaV/Structures/Doors/Airlocks/Glass/justice.rsi # Delta V - Add Justice Dept
+    roboticist:  DeltaV/Structures/Doors/Airlocks/Glass/roboticist.rsi #Added Roboticist Role
 
 - type: AirlockGroup
   id: Windoor
