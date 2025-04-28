@@ -1,0 +1,13 @@
+- type: language
+  id: Tyranidic
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - сссс
+    - шшшш
+    - рррр
+    - гррр 
+    - гравр
+    - равр

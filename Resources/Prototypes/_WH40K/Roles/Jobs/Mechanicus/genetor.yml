@@ -1,0 +1,29 @@
+- type: job
+  id: Genetor
+  name: job-name-genetor
+  description: job-description-genetor
+  playTimeTracker: JobGenetor
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Mechanicus
+      min: 36000 # DeltaV - 10 hours
+  startingGear: GenetorGear
+  icon: "JobIconGenetor"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+
+- type: startingGear
+  id: GenetorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitTechpriest
+    back: ClothingBackpackTechpriest
+    shoes: ClothingShoesBootsworkTechpriest
+    belt: ClothingBeltUtilityEngineering
+    neck: ClothingNeckRobeGenetorTechpriestMars
+    gloves: ClothingHandsGlovesTechpriest
+    eyes: ClothingEyesHudTechPriest
+    mask: ClothingMaskGasTechPriest

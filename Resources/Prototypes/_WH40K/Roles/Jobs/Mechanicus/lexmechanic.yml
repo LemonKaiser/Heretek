@@ -1,0 +1,29 @@
+- type: job
+  id: Lexmechanic
+  name: job-name-lexmechanic
+  description: job-description-lexmechanic
+  playTimeTracker: JobLexmechanic
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Mechanicus
+      min: 216000 # 60 hrs
+  startingGear: LexmechanicGear
+  icon: "JobIconLexmechanic"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+
+- type: startingGear
+  id: LexmechanicGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitTechpriest
+    back: ClothingBackpackTechpriest
+    shoes: ClothingShoesBootsworkTechpriest
+    belt: ClothingBeltUtilityEngineering
+    neck: ClothingNeckRobeTechpriestMars
+    gloves: ClothingHandsGlovesTechpriest
+    eyes: ClothingEyesHudTechPriest
+    mask: ClothingMaskGasTechPriest

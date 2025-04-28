@@ -18,6 +18,9 @@
         Heat: 0.95
   - type: ExplosionResistance
     damageCoefficient: 0.95
+  - type: HideLayerClothing
+    slots:
+    - Hair
 
 - type: entity
   parent: ClothingHeadHelmetFlak
@@ -51,7 +54,7 @@
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.9
-  - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.95
   - type: BreathMask
+  - type: HideLayerClothing
+    slots:
+    - Hair
