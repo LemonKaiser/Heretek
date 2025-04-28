@@ -1,4 +1,4 @@
-- type: localizedDataset
+- type: dataset
   id: Tips
   values:
   - "If you're on fire, you can click the alert on the right of your screen to stop, drop, and roll."
