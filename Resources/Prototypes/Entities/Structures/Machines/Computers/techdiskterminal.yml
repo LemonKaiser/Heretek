@@ -3,10 +3,11 @@
   id: ComputerTechnologyDiskTerminal
   name: tech disk terminal
   description: A terminal used to print out technology disks.
+  suffix: WH40K, АдМехи
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/tech_disk_printer.rsi
+    sprite: _WH40K/Structures/Machines/tech_disk_printer.rsi
     layers:
     - map: ["computerLayerBody"]
       state: icon

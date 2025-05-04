@@ -4,7 +4,7 @@
     "x": 32,
     "y": 32
   },
-  "copyright": "NES : Created by Aserovich",
+  "copyright": "NES : Created by Aserovich, taken from tgstation",
   "license": "CC-BY-SA-3.0",
   "states": [
     {
@@ -54,6 +54,15 @@
     },
     {
       "name": "atmos_wardrobe_door"
+    },
+    {
+      "name": "bartender"
+    },
+    {
+      "name": "bartender_door"
+    },
+    {
+      "name": "bartender_open"
     },
     {
       "name": "bio"
@@ -384,6 +393,15 @@
       "name": "hydro_open"
     },
     {
+      "name": "jan"
+    },
+    {
+      "name": "jan_door"
+    },
+    {
+      "name": "jan_open"
+    },
+    {
       "name": "locked"
     },
     {
@@ -459,6 +477,15 @@
       "name": "qm_open"
     },
     {
+      "name": "rad"
+    },
+    {
+      "name": "rad_door"
+    },
+    {
+      "name": "rad_open"
+    },
+    {
       "name": "rd"
     },
     {
@@ -531,6 +558,15 @@
     },
     {
       "name": "syndicate_open"
+    },
+    {
+      "name": "syndicate1"
+    },
+    {
+      "name": "syndicate1_door"
+    },
+    {
+      "name": "syndicate1_open"
     },
     {
       "name": "tac"
