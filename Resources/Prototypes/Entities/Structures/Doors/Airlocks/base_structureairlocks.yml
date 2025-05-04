@@ -5,6 +5,13 @@
   description: It opens, it closes, and maybe crushes you.
   components:
   - type: StationAiWhitelist
+  - type: PointLight #NES14-Changes
+    radius: 3
+    energy: 0.5
+    color: "#3c5eb5"
+    castShadows: false
+    enabled: false
+  - type: LitOnPowered
   - type: MeleeSound
     soundGroups:
       Brute:
@@ -17,11 +24,11 @@
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
-    - state: welded
-      map: ["enum.WeldableLayers.BaseWelded"]
     - state: closed_unlit
       shader: unshaded
       map: ["enum.DoorVisualLayers.BaseUnlit"]
+    - state: welded
+      map: ["enum.WeldableLayers.BaseWelded"]
     - state: bolted_unlit
       shader: unshaded
       map: ["enum.DoorVisualLayers.BaseBolted"]
@@ -73,6 +80,7 @@
     fuel: 5
     time: 3
   - type: Airlock
+    openUnlitVisible: true
   - type: NavMapDoor
   - type: DoorBolt
   - type: Appearance

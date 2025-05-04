@@ -7,7 +7,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Storage/Closets/closet.rsi
+    sprite: NES/Structures/Storage/closet.rsi
     layers:
     - state: closet
       map: ["enum.StorageVisualLayers.Base"]

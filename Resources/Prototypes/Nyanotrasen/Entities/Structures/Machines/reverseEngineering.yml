@@ -3,10 +3,11 @@
   id: ReverseEngineeringMachine
   name: reverse engineering machine
   description: Destructively analyses pieces of technology in the hopes that we can retrieve information from them.
+  suffix: WH40K, АдМехи
   components:
   - type: ReverseEngineeringMachine
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Machines/reverse_engineering.rsi
+    sprite: _WH40K/Structures/Machines/reverse_engineering.rsi
     snapCardinals: true
     layers:
     - state: open
