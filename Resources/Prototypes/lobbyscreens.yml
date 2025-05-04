@@ -1,20 +1,7 @@
 - type: lobbyBackground
-  id: Robotics
-  background: /Textures/LobbyScreens/robotics.webp
-  name: Robotics
-  artist: Veritius
-
-- type: lobbyBackground
-  id: Supermatter
-  background: /Textures/LobbyScreens/supermatter.webp
-  name: Supermatter
-  artist: Vertitius
-
-- type: lobbyBackground
-  id: Susstation
-  background: /Textures/LobbyScreens/susstation.webp
-  name: Sus Station
-  artist: Alekshhh
+  id: LegioCyberneticaKastellan
+  background: /Textures/LobbyScreens/Legio_Cybernetica_Kastellan.webp
+  name: Legio Cybernetica Kastellan
 
 - type: lobbyBackground
   id: MagosBiologis
