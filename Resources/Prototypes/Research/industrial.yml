@@ -11,13 +11,12 @@
   cost: 7500
   recipeUnlocks:
   - MiningDrill
-  - WeaponGrapplingGun
+#  - WeaponGrapplingGun
   - BorgModuleMining
-  - BorgModuleGrapplingGun
+#  - BorgModuleGrapplingGun
   - MechEquipmentDrill # Goobstation
   - OreProcessorIndustrialMachineCircuitboard
   - ClothingMaskWeldingGas
-  - SalvageExpeditionsComputerCircuitboard
 
 - type: technology
   id: AdvancedPowercells
