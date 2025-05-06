@@ -72,6 +72,7 @@ loadout-category-JobsSecurityHeadOfSecurity = Глава службы безоп
 loadout-category-JobsSecuritySecurityOfficer = Офицер службы безопасности
 loadout-category-JobsSecuritySeniorOfficer = Инструктор
 loadout-category-JobsSecurityWarden = Смотритель
+loadout-category-JobsSecurityWeapons = Duty Weapon
 
 # Служба
 loadout-category-JobsService = Сервис
@@ -85,6 +86,11 @@ loadout-category-JobsServiceLawyer = Юрист
 loadout-category-JobsServiceMime = Мим
 loadout-category-JobsServiceMusician = Музыкант
 loadout-category-JobsServiceReporter = Репортер
+
+# Misc
+loadout-category-JobsZMisc = Misc
+loadout-category-JobsZMiscAUncategorized = All Misc
+loadout-category-JobsZMiscPrisoner = Prisoner
 
 loadout-category-Mask = Маска
 loadout-category-Neck = Шея
