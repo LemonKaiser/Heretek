@@ -9,6 +9,6 @@
     sprite: _WH40K/Structures/Doors/Airlocks/necron.rsi
   - type: Wires
     layoutId: AirlockSecurity
-    snapCardinals: false
+    # snapCardinals: false
   - type: Airlock
-    AnimatePanel: false
+    animatePanel: false
