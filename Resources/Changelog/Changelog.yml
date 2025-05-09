@@ -16038,3 +16038,75 @@ Entries:
   id: 7238
   time: '2025-05-07T19:45:10.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2407
+- author: Will-Oliver-Br
+  changes:
+    - type: Add
+      message: Added fishing.
+  id: 7239
+  time: '2025-05-08T21:58:58.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2416
+- author: GNUtopia
+  changes:
+    - type: Tweak
+      message: Made bio-synthetic torso work as a body
+  id: 7240
+  time: '2025-05-08T22:00:04.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2414
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added fun but actually real
+  id: 7241
+  time: '2025-05-08T22:05:42.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2404
+- author: Diggy0
+  changes:
+    - type: Tweak
+      message: Plasmamen can now wear Modsuit helmets.
+  id: 7242
+  time: '2025-05-08T22:16:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2384
+- author: ilmenwe
+  changes:
+    - type: Tweak
+      message: Logger to Logger.GetSawmill("name");
+  id: 7243
+  time: '2025-05-08T22:26:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2413
+- author: GNUtopia
+  changes:
+    - type: Add
+      message: Added yellow, red, and blue sports drinks
+    - type: Add
+      message: Added vodka sports drink, ronin refresher, and deadlifter cocktails
+    - type: Add
+      message: Enabled neurotoxin cocktail recipe
+    - type: Tweak
+      message: Allowed fitness shakers to function as shakers
+  id: 7244
+  time: '2025-05-08T22:27:12.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2375
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: PING
+  id: 7245
+  time: '2025-05-08T23:53:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2399
+- author: RocketBoss360
+  changes:
+    - type: Tweak
+      message: Shadeskip now has a new sound.
+    - type: Tweak
+      message: Shadeskip now lasts 12 seconds, and its portals despawn with it
+    - type: Tweak
+      message: Darkswap's haze cloud on cast now lasts 5 seconds
+    - type: Tweak
+      message: Telegnosic projections can now speak telepathically
+    - type: Fix
+      message: >-
+        all psionic powers are now disabled if the caster is psionically
+        insulated.
+  id: 7246
+  time: '2025-05-08T23:55:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2376
