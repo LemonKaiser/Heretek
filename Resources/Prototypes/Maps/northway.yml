@@ -30,7 +30,7 @@
             MedicalDoctorWH40K: [ 2, 2 ]
             MedicalInternWH40K: [ 2, 2 ]
             ParamedicWH40K: [ 1, 1 ]
-              PassengerWH40K: [ 1, 5 ]
+            PassengerWH40K: [ 1, 5 ]
           #mechanicus
             Magos: [ 1, 1 ]
             Explorator: [ 2, 3]
