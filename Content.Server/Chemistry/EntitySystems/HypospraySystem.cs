@@ -14,17 +14,21 @@ using Content.Shared.Timing;
 using Content.Shared.Weapons.Melee.Events;
 using Content.Server.Interaction;
 using Content.Server.Body.Components;
-using Content.Server.Chemistry.Containers.EntitySystems;
 using Robust.Shared.GameStates;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Content.Shared.Chemistry.Reagent;
 using Robust.Server.Audio;
+using Content.Server.Atmos.EntitySystems;
+using Content.Shared.DoAfter;
+using Content.Shared._Goobstation.Chemistry.Hypospray; // Goobstation
 
 namespace Content.Server.Chemistry.EntitySystems;
 
 public sealed class HypospraySystem : SharedHypospraySystem
 {
+    [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
+    [Dependency] private readonly AtmosphereSystem _atmosphere = default!;
     [Dependency] private readonly AudioSystem _audio = default!;
     [Dependency] private readonly InteractionSystem _interaction = default!;
 
@@ -35,6 +39,7 @@ public sealed class HypospraySystem : SharedHypospraySystem
         SubscribeLocalEvent<HyposprayComponent, AfterInteractEvent>(OnAfterInteract);
         SubscribeLocalEvent<HyposprayComponent, MeleeHitEvent>(OnAttack);
         SubscribeLocalEvent<HyposprayComponent, UseInHandEvent>(OnUseInHand);
+        SubscribeLocalEvent<HyposprayComponent, HyposprayDoAfterEvent>(OnDoAfter);
     }
 
     private void UseHypospray(Entity<HyposprayComponent> entity, EntityUid target, EntityUid user)
@@ -69,6 +74,9 @@ public sealed class HypospraySystem : SharedHypospraySystem
 
     public void OnAttack(Entity<HyposprayComponent> entity, ref MeleeHitEvent args)
     {
+        if (args.Handled) // Goobstation
+            return;
+
         if (!args.HitEntities.Any())
             return;
 
@@ -77,15 +85,47 @@ public sealed class HypospraySystem : SharedHypospraySystem
 
     public bool TryDoInject(Entity<HyposprayComponent> entity, EntityUid target, EntityUid user)
     {
+        var (_, component) = entity;
+
+        var doAfterDelay = 0f;
+        if (component.MaxPressure != float.MaxValue)
+        {
+            var mixture = _atmosphere.GetTileMixture(target);
+            if (mixture != null && mixture.Pressure > component.MaxPressure)
+            {
+                doAfterDelay = component.InjectTime;
+            }
+        }
+
+        var doAfterEventArgs = new DoAfterArgs(EntityManager, user, doAfterDelay, new HyposprayDoAfterEvent(), entity.Owner, target, user)
+        {
+            BreakOnMove = target != user,
+            BreakOnWeightlessMove = false,
+            NeedHand = true,
+            Broadcast = true
+        };
+
+        _doAfter.TryStartDoAfter(doAfterEventArgs);
+        return true;
+    }
+
+    private void OnDoAfter(Entity<HyposprayComponent> entity, ref HyposprayDoAfterEvent args)
+    {
+        if (args.Handled || args.Cancelled)
+            return;
+
+        var target = (EntityUid) args.Target!;
+        var user = args.User;
+
         var (uid, component) = entity;
 
         if (!EligibleEntity(target, EntityManager, component))
-            return false;
+            return;
 
         if (TryComp(uid, out UseDelayComponent? delayComp))
         {
             if (_useDelay.IsDelayed((uid, delayComp)))
-                return false;
+                return;
         }
 
         string? msgFormat = null;
@@ -97,13 +137,13 @@ public sealed class HypospraySystem : SharedHypospraySystem
         if (selfEvent.Cancelled)
         {
             _popup.PopupEntity(Loc.GetString(selfEvent.InjectMessageOverride ?? "hypospray-cant-inject", ("owner", Identity.Entity(target, EntityManager))), target, user);
-            return false;
+            return;
         }
 
         target = selfEvent.TargetGettingInjected;
 
         if (!EligibleEntity(target, EntityManager, component))
-            return false;
+            return;
 
         // Target event
         var targetEvent = new TargetBeforeHyposprayInjectsEvent(user, entity.Owner, target);
@@ -112,13 +152,13 @@ public sealed class HypospraySystem : SharedHypospraySystem
         if (targetEvent.Cancelled)
         {
             _popup.PopupEntity(Loc.GetString(targetEvent.InjectMessageOverride ?? "hypospray-cant-inject", ("owner", Identity.Entity(target, EntityManager))), target, user);
-            return false;
+            return;
         }
 
         target = targetEvent.TargetGettingInjected;
 
         if (!EligibleEntity(target, EntityManager, component))
-            return false;
+            return;
 
         // The target event gets priority for the overriden message.
         if (targetEvent.InjectMessageOverride != null)
@@ -131,13 +171,13 @@ public sealed class HypospraySystem : SharedHypospraySystem
         if (!_solutionContainers.TryGetSolution(uid, component.SolutionName, out var hypoSpraySoln, out var hypoSpraySolution) || hypoSpraySolution.Volume == 0)
         {
             _popup.PopupEntity(Loc.GetString("hypospray-component-empty-message"), target, user);
-            return true;
+            return;
         }
 
         if (!_solutionContainers.TryGetInjectableSolution(target, out var targetSoln, out var targetSolution))
         {
             _popup.PopupEntity(Loc.GetString("hypospray-cant-inject", ("target", Identity.Entity(target, EntityManager))), target, user);
-            return false;
+            return;
         }
 
         _popup.PopupEntity(Loc.GetString(msgFormat ?? "hypospray-component-inject-other-message", ("other", target)), target, user);
@@ -162,24 +202,25 @@ public sealed class HypospraySystem : SharedHypospraySystem
         if (realTransferAmount <= 0)
         {
             _popup.PopupEntity(Loc.GetString("hypospray-component-transfer-already-full-message", ("owner", target)), target, user);
-            return true;
+            return;
         }
 
         // Move units from attackSolution to targetSolution
         var removedSolution = _solutionContainers.SplitSolution(hypoSpraySoln.Value, realTransferAmount);
 
         if (!targetSolution.CanAddSolution(removedSolution))
-            return true;
+            return;
         _reactiveSystem.DoEntityReaction(target, removedSolution, ReactionMethod.Injection);
         _solutionContainers.TryAddSolution(targetSoln.Value, removedSolution);
 
         var ev = new TransferDnaEvent { Donor = target, Recipient = uid };
         RaiseLocalEvent(target, ref ev);
 
-        // same LogType as syringes...
-        _adminLogger.Add(LogType.ForceFeed, $"{EntityManager.ToPrettyString(user):user} injected {EntityManager.ToPrettyString(target):target} with a solution {SolutionContainerSystem.ToPrettyString(removedSolution):removedSolution} using a {EntityManager.ToPrettyString(uid):using}");
+        var afterinjectev = new AfterHyposprayInjectsEvent { User = user, Target = target }; // Goobstation
+        RaiseLocalEvent(uid, ref afterinjectev); // Goobstation
 
-        return true;
+        // same LogType as syringes...
+        _adminLogger.Add(LogType.ForceFeed, $"{EntityManager.ToPrettyString(user):user} injected {EntityManager.ToPrettyString(target):target} with a solution {SharedSolutionContainerSystem.ToPrettyString(removedSolution):removedSolution} using a {EntityManager.ToPrettyString(uid):using}");
     }
 
     private void TryDraw(Entity<HyposprayComponent> entity, Entity<BloodstreamComponent?> target, Entity<SolutionComponent> targetSolution, EntityUid user)

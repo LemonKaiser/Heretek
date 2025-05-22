@@ -106,13 +106,6 @@
     price: 100
   - type: Appearance
   - type: WiresVisuals
-  - type: LanguageKnowledge
-    speaks:
-    - TauCetiBasic
-    - RobotTalk
-    understands:
-    - TauCetiBasic
-    - RobotTalk
 
 - type: entity
   parent: VendingMachine
@@ -892,7 +885,7 @@
   parent: VendingMachine
   id: VendingMachineMedical
   name: NanoMed Plus
-  description: It's a medical drug dispenser. Natural chemicals only!
+  description: It's a medical drug dispenser. Natural chemicals only! (And wheelchairs, why not) # Goobstation
   components:
   - type: VendingMachine
     pack: NanoMedPlusInventory
@@ -1559,6 +1552,8 @@
         type: ShopVendorBoundUserInterface
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
+      enum.MiningVoucherUiKey.Key:
+        type: MiningVoucherBoundUserInterface
   - type: Wires # DeltaV: Use shop vendor wires layout
     layoutId: ShopVendor
   - type: AccessReader
@@ -1566,6 +1561,14 @@
   - type: GuideHelp
     guides:
     - Salvage
+  - type: MiningVendor # Lavaland Change
+    kits:
+    - MiningCrusher
+    - MiningExtraction
+    #- MiningResonator
+    #- MiningSurvival
+    #- MiningDrone
+    - MiningConscription
 
 - type: entity
   parent: VendingMachine
@@ -2437,6 +2440,11 @@
     color: "#9dc5c9"
     mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
+  - type: LanguageKnowledge
+    speaks:
+    - SolCommon
+    understands:
+    - SolCommon
 
 - type: entity
   id: VendingMachineSolsnack
@@ -2477,6 +2485,11 @@
     color: "#9dc5c9"
     mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
+  - type: LanguageKnowledge
+    speaks:
+    - SolCommon
+    understands:
+    - SolCommon
 
 - type: entity
   id: VendingMachineWeeb
@@ -2518,3 +2531,8 @@
     color: "#9dc5c9"
     mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
+  - type: LanguageKnowledge
+    speaks:
+    - SolCommon
+    understands:
+    - SolCommon
