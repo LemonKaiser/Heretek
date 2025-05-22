@@ -16,6 +16,7 @@
     - state: closed_unlit
       shader: unshaded
       map: ["enum.DoorVisualLayers.BaseUnlit"]
+      visible: false
     - state: welded
       map: ["enum.WeldableLayers.BaseWelded"]
     - state: bolted_unlit
@@ -26,6 +27,16 @@
       shader: unshaded
     - state: panel_open
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - state: electrified
+      sprite: Interface/Misc/ai_hud.rsi
+      shader: unshaded
+      visible: false
+      map: ["enum.ElectrifiedLayers.HUD"]
+    - state: electrified
+      sprite: Effects/electricity.rsi
+      shader: unshaded
+      visible: false
+      map: ["enum.ElectrifiedLayers.Sparks"]
   - type: AnimationPlayer
   - type: Physics
   - type: Fixtures
@@ -59,12 +70,20 @@
     fuel: 10
     time: 10
   - type: Airlock
+    openUnlitVisible: true # Corvax-Resprite-Airlocks
   - type: NavMapDoor
   - type: DoorBolt
   - type: AccessReader
     containerAccessProvider: board
   - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ElectrifiedVisuals.ShowSparks:
+        enum.ElectrifiedLayers.Sparks:
+          True: { visible: True }
+          False: { visible: False }
   - type: WiresVisuals
+  - type: ElectrocutionHUDVisuals
   - type: ApcPowerReceiver
     powerLoad: 20
   - type: ExtensionCableReceiver

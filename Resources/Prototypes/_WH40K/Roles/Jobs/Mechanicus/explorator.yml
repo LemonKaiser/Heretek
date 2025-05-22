@@ -15,6 +15,7 @@
   - Salvage
   - Maintenance
   - External
+  - Engineering
 
 - type: startingGear
   id: ExploratorGear
@@ -28,3 +29,4 @@
     eyes: ClothingEyesHudTechPriest
     outerClothing: ClothingOuterHardsuitTechpriest
     mask: ClothingMaskGasTechPriest
+    id: PassengerPDA
