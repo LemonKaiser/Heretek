@@ -25,6 +25,11 @@
   - External
   - ChiefEngineer
   - Atmospherics
+  - Research
+  - ResearchDirector
+  - Mantis
+  - Cargo
+  - Salvage
   - Cryogenics
   special:
   - !type:AddImplantSpecial
@@ -49,3 +54,4 @@
     mask: ClothingGasTechPriest
     eyes: ClothingEyesHudTechPriest
     outerClothing: ClothingOuterHardsuitTechpriestMarsMagos
+    id: PassengerPDA

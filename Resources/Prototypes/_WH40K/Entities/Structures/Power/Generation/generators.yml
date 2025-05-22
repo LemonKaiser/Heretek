@@ -5,10 +5,12 @@
   description: Термоядерное пламя в их сердце слабее, чем у других представителей серии, они гораздо более надежны и способны пережить непоправимый урон без потери производительности.
   suffix: WH40K, 250kW
   components:
+  - type: SpriteFade
   - type: PowerSupplier
     supplyRate: 250000
   - type: Sprite
     sprite: _WH40K/Structures/Power/Generation/plasma_generator.rsi
+    drawdepth: Mobs
     state: base
   - type: PowerMonitoringDevice
     sprite: _WH40K/Structures/Power/Generation/plasma_generator.rsi

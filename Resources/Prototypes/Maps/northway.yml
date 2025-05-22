@@ -17,49 +17,30 @@
             prefixCreator: '14'
         - type: StationJobs
           overflowJobs:
-            - Passenger
+            - PassengerWH40K
           availableJobs:
           #service
-            Captain: [ 1, 1 ]
-            HeadOfPersonnel: [ 1, 1 ]
-            Bartender: [ 1, 1 ]
-            Botanist: [ 1, 1 ]
-            Chef: [ 1 , 1 ]
-            Clown: [ 1, 1 ]
-            Musician: [ 1, 1 ]
-            Janitor: [ 1, 1 ]
-            Mime: [ 1, 1 ]
-            Reporter: [ 1, 1 ]
-            ServiceWorker: [ 1, 1 ]
-          #engineering
-            ChiefEngineer: [ 1, 1 ]
-            AtmosphericTechnician: [ 1, 2]
-            StationEngineer: [ 2, 2 ]
-            TechnicalAssistant: [ 2, 2 ]
-          #medical
-            ChiefMedicalOfficer: [ 1, 1 ]
-            Chemist: [ 1, 1 ]
-            MedicalDoctor: [ 2, 2 ]
-            MedicalIntern: [ 2, 2 ]
-            Paramedic: [ 1, 1 ]
-          #science
-            ResearchDirector: [ 1, 1 ]
-            Chaplain: [ 1, 1 ]
-            Scientist: [ 2, 2 ]
-            ResearchAssistant: [ 2, 2 ]
-          #security
-            HeadOfSecurity: [ 1, 1 ]
-            Warden: [ 1, 1 ]
-            Detective: [ 1, 1 ]
-            SecurityOfficer: [ 2, 2 ]
-            SecurityCadet: [ 1, 2 ]
-            Prisoner: [ 1, 2 ]
-          #supply
-            Quartermaster: [ 1, 1 ]
-            MailCarrier: [ 1, 1 ]
-            SalvageSpecialist: [ 2, 3 ]
-            CargoTechnician: [ 2, 2 ]
-          #civilian
-            Passenger: [ 1, 5 ]
-          # Silicon
-            StationAi: [ 1, 1 ]
+            CaptainWH40K: [ 1, 1 ]
+            FirstAssistant: [ 1, 1 ]
+            BartenderWH40K: [ 1, 1 ]
+            ChaplainWH40K: [ 1, 1 ]
+            ChefWH40K: [ 1 , 1 ]
+            JanitorWH40K: [ 1, 1 ]
+            ChemistWH40K: [ 1, 1 ]
+            MedicalDoctorWH40K: [ 2, 2 ]
+            MedicalInternWH40K: [ 2, 2 ]
+            ParamedicWH40K: [ 1, 1 ]
+            PassengerWH40K: [ 1, 5 ]
+          #mechanicus
+            Magos: [ 1, 1 ]
+            Explorator: [ 2, 3]
+            Genetor: [ 2, 2 ]
+            Lexmechanic: [ 2, 2 ]
+            Enginseer: [ 2, 2 ]
+            Novice: [ 2, 2 ]
+          #voidmen
+            HeadOfficer: [ 1, 1 ]
+            GunnerySergeant: [ 1, 1 ]
+            Sergeant: [ 1, 1 ]
+            Voidsman: [ 2, 2 ]
+            Recruit: [ 1, 2 ]

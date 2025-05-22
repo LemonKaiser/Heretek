@@ -62,7 +62,7 @@
     volume: -5
     range: 5
     sound:
-      path: /Audio/Ambience/Objects/revMachine_ambience.ogg
+      path: /Audio/_WH40K/Machines/scans.ogg
   - type: GuideHelp
     guides:
     - ReverseEngineering
