@@ -14,7 +14,6 @@
   - Maintenance
   - Engineering
   - External
-  extendedAccess:
   - Atmospherics
 
 - type: startingGear
@@ -28,3 +27,4 @@
     gloves: ClothingHandsGlovesTechpriest
     eyes: ClothingEyesHudTechPriest
     outerClothing: ClothingOuterHardsuitTechpriest
+    id: PassengerPDA

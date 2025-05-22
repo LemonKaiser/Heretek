@@ -8,6 +8,19 @@
   },
   "states": [
     {
+      "name": "electrified_ai",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
       "name": "electrified",
       "delays": [
         [

@@ -1,7 +1,7 @@
 - type: tile
   id: FloorSteel
   name: tiles-steel-floor
-  sprite: /Textures/NES/Tiles/steel.png
+  sprite: /Textures/Tiles/steel.png
   variants: 4
   placementVariants:
   - 1.0
@@ -19,7 +19,7 @@
 - type: tile
   id: FloorSteelCheckerLight
   name: tiles-steel-floor-checker-light
-  sprite: /Textures/NES/Tiles/cafeteria.png
+  sprite: /Textures/Tiles/cafeteria.png
   variants: 4
   placementVariants:
   - 1.0
@@ -55,7 +55,7 @@
 - type: tile
   id: FloorSteelMini
   name: tiles-steel-floor-mini
-  sprite: /Textures/NES/Tiles/steel_mini.png
+  sprite: /Textures/Tiles/steel_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -73,7 +73,7 @@
 - type: tile
   id: FloorSteelPavement
   name: tiles-steel-floor-pavement
-  sprite: /Textures/NES/Tiles/steel_pavement.png
+  sprite: /Textures/Tiles/steel_pavement.png
   variants: 4
   placementVariants:
   - 1.0
@@ -91,7 +91,7 @@
 - type: tile
   id: FloorSteelDiagonal
   name: tiles-steel-floor-diagonal
-  sprite: /Textures/NES/Tiles/steel_diagonal.png
+  sprite: /Textures/Tiles/steel_diagonal.png
   variants: 4
   placementVariants:
   - 1.0
@@ -109,7 +109,7 @@
 - type: tile
   id: FloorSteelOffset
   name: tiles-steel-floor-offset
-  sprite: /Textures/NES/Tiles/steel_offset.png
+  sprite: /Textures/Tiles/steel_offset.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -121,7 +121,7 @@
 - type: tile
   id: FloorSteelMono
   name: tiles-steel-floor-mono
-  sprite: /Textures/NES/Tiles/steel_mono.png
+  sprite: /Textures/Tiles/steel_mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -139,7 +139,7 @@
 - type: tile
   id: FloorSteelPavementVertical
   name: tiles-steel-floor-pavement-vertical
-  sprite: /Textures/NES/Tiles/steel_pavement_vertical.png
+  sprite: /Textures/Tiles/steel_pavement_vertical.png
   variants: 4
   placementVariants:
   - 1.0
@@ -157,7 +157,7 @@
 - type: tile
   id: FloorSteelHerringbone
   name: tiles-steel-floor-herringbone
-  sprite: /Textures/NES/Tiles/steel_herringbone.png
+  sprite: /Textures/Tiles/steel_herringbone.png
   variants: 4
   placementVariants:
   - 1.0
@@ -175,7 +175,7 @@
 - type: tile
   id: FloorSteelDiagonalMini
   name: tiles-steel-floor-diagonal-mini
-  sprite: /Textures/NES/Tiles/steel_diagonal_mini.png
+  sprite: /Textures/Tiles/steel_diagonal_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -217,7 +217,7 @@
 - type: tile
   id: FloorPlastic
   name: tiles-plastic-floor
-  sprite: /Textures/NES/Tiles/plastic.png
+  sprite: /Textures/Tiles/plastic.png
   variants: 4
   placementVariants:
   - 1.0
@@ -255,7 +255,7 @@
 - type: tile
   id: FloorWhite
   name: tiles-white-floor
-  sprite: /Textures/NES/Tiles/white.png
+  sprite: /Textures/Tiles/white.png
   variants: 4
   placementVariants:
   - 1.0
@@ -273,7 +273,7 @@
 - type: tile
   id: FloorWhiteMini
   name: tiles-white-floor-mini
-  sprite: /Textures/NES/Tiles/white_mini.png
+  sprite: /Textures/Tiles/white_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -291,7 +291,7 @@
 - type: tile
   id: FloorWhitePavement
   name: tiles-white-floor-pavement
-  sprite: /Textures/NES/Tiles/white_pavement.png
+  sprite: /Textures/Tiles/white_pavement.png
   variants: 4
   placementVariants:
   - 1.0
@@ -309,7 +309,7 @@
 - type: tile
   id: FloorWhiteDiagonal
   name: tiles-white-floor-diagonal
-  sprite: /Textures/NES/Tiles/white_diagonal.png
+  sprite: /Textures/Tiles/white_diagonal.png
   variants: 4
   placementVariants:
   - 1.0
@@ -327,7 +327,7 @@
 - type: tile
   id: FloorWhiteOffset
   name: tiles-white-floor-offset
-  sprite: /Textures/NES/Tiles/white_offset.png
+  sprite: /Textures/Tiles/white_offset.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -339,7 +339,7 @@
 - type: tile
   id: FloorWhiteMono
   name: tiles-white-floor-mono
-  sprite: /Textures/NES/Tiles/white_mono.png
+  sprite: /Textures/Tiles/white_mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -357,7 +357,7 @@
 - type: tile
   id: FloorWhitePavementVertical
   name: tiles-white-floor-pavement-vertical
-  sprite: /Textures/NES/Tiles/white_pavement_vertical.png
+  sprite: /Textures/Tiles/white_pavement_vertical.png
   variants: 4
   placementVariants:
   - 1.0
@@ -375,7 +375,7 @@
 - type: tile
   id: FloorWhiteHerringbone
   name: tiles-white-floor-herringbone
-  sprite: /Textures/NES/Tiles/white_herringbone.png
+  sprite: /Textures/Tiles/white_herringbone.png
   variants: 4
   placementVariants:
   - 1.0
@@ -393,7 +393,7 @@
 - type: tile
   id: FloorWhiteDiagonalMini
   name: tiles-white-floor-diagonal-mini
-  sprite: /Textures/NES/Tiles/white_diagonal_mini.png
+  sprite: /Textures/Tiles/white_diagonal_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -411,7 +411,7 @@
 - type: tile
   id: FloorWhitePlastic
   name: tiles-plastic-white-floor
-  sprite: /Textures/NES/Tiles/white_plastic.png
+  sprite: /Textures/Tiles/white_plastic.png
   variants: 4
   placementVariants:
   - 1.0
@@ -429,7 +429,7 @@
 - type: tile
   id: FloorDark
   name: tiles-dark-floor
-  sprite: /Textures/NES/Tiles/dark.png
+  sprite: /Textures/Tiles/dark.png
   variants: 4
   placementVariants:
   - 1.0
@@ -447,7 +447,7 @@
 - type: tile
   id: FloorDarkMini
   name: tiles-dark-floor-mini
-  sprite: /Textures/NES/Tiles/dark_mini.png
+  sprite: /Textures/Tiles/dark_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -465,7 +465,7 @@
 - type: tile
   id: FloorDarkPavement
   name: tiles-dark-floor-pavement
-  sprite: /Textures/NES/Tiles/dark_pavement.png
+  sprite: /Textures/Tiles/dark_pavement.png
   variants: 4
   placementVariants:
   - 1.0
@@ -483,7 +483,7 @@
 - type: tile
   id: FloorDarkDiagonal
   name: tiles-dark-floor-diagonal
-  sprite: /Textures/NES/Tiles/dark_diagonal.png
+  sprite: /Textures/Tiles/dark_diagonal.png
   variants: 4
   placementVariants:
   - 1.0
@@ -501,7 +501,7 @@
 - type: tile
   id: FloorDarkOffset
   name: tiles-dark-floor-offset
-  sprite: /Textures/NES/Tiles/dark_offset.png
+  sprite: /Textures/Tiles/dark_offset.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -513,7 +513,7 @@
 - type: tile
   id: FloorDarkMono
   name: tiles-dark-floor-mono
-  sprite: /Textures/NES/Tiles/dark_mono.png
+  sprite: /Textures/Tiles/dark_mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -531,7 +531,7 @@
 - type: tile
   id: FloorDarkPavementVertical
   name: tiles-dark-floor-pavement-vertical
-  sprite: /Textures/NES/Tiles/dark_pavement_vertical.png
+  sprite: /Textures/Tiles/dark_pavement_vertical.png
   variants: 4
   placementVariants:
   - 1.0
@@ -549,7 +549,7 @@
 - type: tile
   id: FloorDarkHerringbone
   name: tiles-dark-floor-herringbone
-  sprite: /Textures/NES/Tiles/dark_herringbone.png
+  sprite: /Textures/Tiles/dark_herringbone.png
   variants: 4
   placementVariants:
   - 1.0
@@ -567,7 +567,7 @@
 - type: tile
   id: FloorDarkDiagonalMini
   name: tiles-dark-floor-diagonal-mini
-  sprite: /Textures/NES/Tiles/dark_diagonal_mini.png
+  sprite: /Textures/Tiles/dark_diagonal_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -585,7 +585,7 @@
 - type: tile
   id: FloorDarkPlastic
   name: tiles-plastic-dark-floor
-  sprite: /Textures/NES/Tiles/dark_plastic.png
+  sprite: /Textures/Tiles/dark_plastic.png
   variants: 4
   placementVariants:
   - 1.0
@@ -652,7 +652,7 @@
 - type: tile
   id: FloorSteelDirty
   name: tiles-dirty-steel-floor
-  sprite: /Textures/NES/Tiles/steel_dirty.png
+  sprite: /Textures/Tiles/steel_dirty.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]

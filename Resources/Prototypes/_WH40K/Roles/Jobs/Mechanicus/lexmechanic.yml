@@ -15,6 +15,9 @@
   - Engineering
   - External
   - Atmospherics
+  - Research
+  - ResearchDirector
+  - Mantis
 
 - type: startingGear
   id: LexmechanicGear
@@ -27,3 +30,4 @@
     gloves: ClothingHandsGlovesTechpriest
     eyes: ClothingEyesHudTechPriest
     mask: ClothingMaskGasTechPriest
+    id: PassengerPDA
