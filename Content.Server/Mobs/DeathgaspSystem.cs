@@ -2,13 +2,17 @@ using Content.Server.Chat.Systems;
 using Content.Server.Speech.Muting;
 using Content.Shared.Mobs;
 using Content.Shared.Speech.Muting;
+using Robust.Shared.Audio.Systems;
+using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
+using Content.Shared.Standing;
 
 namespace Content.Server.Mobs;
 
 /// <see cref="DeathgaspComponent"/>
 public sealed class DeathgaspSystem: EntitySystem
 {
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly ChatSystem _chat = default!;
 
     public override void Initialize()
@@ -40,6 +44,11 @@ public sealed class DeathgaspSystem: EntitySystem
             return false;
 
         _chat.TryEmoteWithChat(uid, component.Prototype, ignoreActionBlocker: true);
+
+        if (!HasComp<LayingDownComponent>(uid))
+            return false;
+
+        _audio.PlayPvs(component.GaspSound, uid, AudioParams.Default.WithVolume(-6f));
 
         return true;
     }

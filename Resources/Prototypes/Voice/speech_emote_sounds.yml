@@ -36,6 +36,8 @@
       collection: Weh
     Battlecry:
       collection: MaleBattlecry
+    DefaultDeathgasp:
+      collection: DefaultDeathgasp
 
 - type: emoteSounds
   id: FemaleHuman
@@ -74,7 +76,9 @@
       collection: Weh
     Battlecry:
       collection: FemaleBattlecry
-      
+    DefaultDeathgasp:
+      collection: DefaultDeathgasp
+
 - type: emoteSounds
   id: MaleReptilian
   params:

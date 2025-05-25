@@ -1,5 +1,6 @@
 using Content.Shared.Chat.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
+using Robust.Shared.Audio;
 
 namespace Content.Server.Mobs;
 
@@ -13,7 +14,7 @@ public sealed partial class DeathgaspComponent : Component
     /// <summary>
     ///     The emote prototype to use.
     /// </summary>
-    [DataField(customTypeSerializer:typeof(PrototypeIdSerializer<EmotePrototype>))]
+    [DataField(customTypeSerializer: typeof(PrototypeIdSerializer<EmotePrototype>))]
     public string Prototype = "DefaultDeathgasp";
 
     /// <summary>
@@ -21,4 +22,7 @@ public sealed partial class DeathgaspComponent : Component
     /// </summary>
     [DataField]
     public bool NeedsCritical = true;
+
+    [DataField, AutoNetworkedField]
+    public SoundSpecifier GaspSound = new SoundCollectionSpecifier("DefaultDeathgasp");
 }
