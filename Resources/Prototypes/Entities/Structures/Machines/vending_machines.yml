@@ -890,15 +890,15 @@
   - type: VendingMachine
     pack: NanoMedPlusInventory
     offState: off
-    brokenState: broken
+    brokenState: off
     normalState: normal-unshaded
-    ejectState: eject-unshaded
-    denyState: deny-unshaded
+    # ejectState: eject-unshaded
+    # denyState: deny-unshaded
     ejectDelay: 0.6
-  - type: Advertise
-    pack: NanoMedAds
-  - type: SpeakOnUIClosed
-    pack: GenericVendGoodbyes
+  # - type: Advertise
+  #   pack: NanoMedAds
+  # - type: SpeakOnUIClosed
+  #   pack: GenericVendGoodbyes
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/medivend.rsi
     noRot: true
