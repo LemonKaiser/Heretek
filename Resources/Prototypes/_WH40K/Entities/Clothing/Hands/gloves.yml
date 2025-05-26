@@ -42,3 +42,15 @@
     fiberMaterial: fibers-durathread
     fiberColor: fibers-regal-black
   - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesBloodPact
+  name: перчатки бладпакта
+  description: боевые перчатки
+  suffix: WH40K, Бладпакт
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Hands/Gloves/black_heresy.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Hands/Gloves/black_heresy.rsi

@@ -57,3 +57,15 @@
     sprite: _WH40K/Clothing/Uniforms/Jumpsuit/techpriest.rsi
   - type: Clothing
     sprite: _WH40K/Clothing/Uniforms/Jumpsuit/techpriest.rsi
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformJumpsuitBloodPact
+  name: униформа бладпакта
+  description: Обычная униформа
+  suffix: WH40K, Бладпакт
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Uniforms/Jumpsuit/heresy.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Uniforms/Jumpsuit/heresy.rsi
