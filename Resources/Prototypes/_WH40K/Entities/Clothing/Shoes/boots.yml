@@ -59,3 +59,15 @@
         Blunt: 0.95
         Slash: 0.95
         Heat: 0.99
+
+- type: entity
+  parent: ClothingShoesBootsworkTechpriest
+  id: ClothingShoesBootsBloodPact
+  name: ботинки бладпакта
+  description: Ботинки без каких либо дополнений.
+  suffix: WH40K, Бладпакт
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Shoes/Boots/heresyboots.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Shoes/Boots/heresyboots.rsi

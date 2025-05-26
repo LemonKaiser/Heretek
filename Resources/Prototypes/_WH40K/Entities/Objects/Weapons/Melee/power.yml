@@ -46,7 +46,7 @@
   - type: PirateAccent
 
 - type: entity
-  name: силовая булова
+  name: силовая булава
   parent: BaseItem
   id: WHPowerMaceImperial
   description: filler
@@ -73,7 +73,7 @@
   - type: ItemToggleMeleeWeapon
     activatedDamage:
       types:
-        Shock: 5
+        Shock: 10
   - type: ItemToggleDamageOtherOnHit
   - type: Stunbaton
     energyPerUse: 20
@@ -83,7 +83,7 @@
     range: 1.6
     damage:
       types:
-        Blunt: 30
+        Blunt: 18
     bluntStaminaDamageFactor: 2.0
     heavyRateModifier: 1.25
     heavyDamageBaseModifier: 1.2
