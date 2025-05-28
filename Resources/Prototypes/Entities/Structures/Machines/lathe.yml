@@ -110,6 +110,17 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
     board: AutolatheMachineCircuitboard
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.2,1.2,0.5"
+        density: 190
+        mask:
+        - MachineMask
+        layer:
+          - MachineLayer
   - type: MaterialStorage
     whitelist:
       tags:
@@ -120,9 +131,13 @@
       - ClothMade
       - Gauze
       - Metal
+  - type: MaterialStorageMagnetPickup # Delta V - Summary: Adds magnet pull from Frontier
+    magnetEnabled: True
+    range: 0.50 # Delta V - End Magnet Pull
   - type: Lathe
     idleState: icon
     runningState: building
+    producingSound: /Audio/_WH40K/Machines/fabr.ogg
     staticRecipes:
     - Wirecutter
     - Igniter
@@ -337,6 +352,9 @@
       - ClothMade
       - Gauze
       - Metal
+  - type: MaterialStorageMagnetPickup # Delta V - Summary: Adds magnet pull from Frontier
+    magnetEnabled: True
+    range: 0.50 # Delta V - End Magnet Pull
   - type: Lathe
     idleState: icon
     runningState: building
@@ -1679,7 +1697,7 @@
     - MaterialDiamond
   - type: MaterialStorageMagnetPickup # Delta V - Summary: Adds magnet pull from Frontier
     magnetEnabled: True
-    range: 0.30 # Delta V - End Magnet Pull
+    range: 0.50 # Delta V - End Magnet Pull
   - type: MiningPoints # DeltaV - Source of mining points for miners
     transferSound:
       path: /Audio/Effects/Cargo/ping.ogg
