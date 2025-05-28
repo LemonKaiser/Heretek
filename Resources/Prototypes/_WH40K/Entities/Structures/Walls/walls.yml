@@ -11,7 +11,7 @@
     state: rgeneric
   - type: Construction
     graph: Girder
-    node: reinforcedWall
+    node: metalWall
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
