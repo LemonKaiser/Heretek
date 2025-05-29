@@ -44,3 +44,9 @@
             Sergeant: [ 1, 1 ]
             Voidsman: [ 2, 2 ]
             Recruit: [ 1, 2 ]
+        # blob-config-start SMALL+
+        - type: StationBlobConfig
+          stageBegin: 25
+          stageCritical: 350
+          stageTheEnd: 700
+        # blob-config-end
