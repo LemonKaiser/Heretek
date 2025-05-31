@@ -24097,6 +24097,8 @@ entities:
     - type: Transform
       pos: -25.5,-19.5
       parent: 2
+- proto: SpawnPointPassenger
+  entities:
   - uid: 3430
     components:
     - type: Transform
