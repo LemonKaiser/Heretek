@@ -51,3 +51,8 @@
   - type: Item
     sprite: _WH40K/Objects/Weapons/Guns/Rifles/rad_carbine_in-hands.rsi
     size: Large
+  # - type: Tag
+  #   tags:
+  #     - BigGunUser
+  - type: BigGun
+
