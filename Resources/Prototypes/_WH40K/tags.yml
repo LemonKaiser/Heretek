@@ -1,6 +1,6 @@
 - type: Tag
   id: LasgunPowerCell
-  
+
 - type: Tag
   id: LonglasPowerCell
 
@@ -30,24 +30,27 @@
 
 - type: Tag
   id: MagazineRad
-  
+
 - type: Tag
   id: CartridgeLightAutogun
-  
+
 - type: Tag
   id: CartridgeHeavyAutogun
-  
+
 - type: Tag
   id: CartridgeStubPistol
-  
+
 - type: Tag
   id: MagazineLightAutogun
-  
+
 - type: Tag
   id: MagazineHeavyAutogun
-  
+
 - type: Tag
   id: MagazineStubPistol
 
 - type: Tag
   id: FlameThrowerFuelTank
+
+- type: Tag
+  id: BigGunUser

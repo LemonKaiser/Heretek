@@ -135,6 +135,7 @@
     - DoorBumpOpener
     - SiliconEmotes
     - SiliconMob
+    - BigGunUser
 
 - type: entity
   save: false
