@@ -19,8 +19,7 @@
           "/Audio/Weapons/smash.ogg"
   - type: InteractionOutline
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/basic.rsi #NES14-Changes
-    snapCardinals: true
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -84,7 +83,7 @@
       board: !type:Container
   - type: Weldable
     fuel: 5
-    time: 3
+    time: 3 
   - type: Airlock
     openUnlitVisible: true # Corvax-Resprite-Airlocks
   - type: NavMapDoor
@@ -213,7 +212,7 @@
   - type: Occluder
     enabled: false
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/glass.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
   - type: AnimationPlayer
   - type: Fixtures
     fixtures:

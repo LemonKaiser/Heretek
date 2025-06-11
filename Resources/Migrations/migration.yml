@@ -83,7 +83,7 @@ SyringeSpaceacillin: null
 AirlockPainter: SprayPainter
 
 # 2023-08-19
-GeneratorPlasma: PortableGeneratorPacman
+# GeneratorPlasma: PortableGeneratorPacman
 GeneratorUranium: PortableGeneratorSuperPacman
 GeneratorPlasmaMachineCircuitboard: PortableGeneratorPacmanMachineCircuitboard
 GeneratorUraniumMachineCircuitboard: PortableGeneratorSuperPacmanMachineCircuitboard
@@ -391,5 +391,3 @@ AirlockHydroponics: AirlockHydroponicsLocked
 Biogenerator: null
 FloraGreyStalagmite: null
 FelinidCube: TajaranCube
-
-

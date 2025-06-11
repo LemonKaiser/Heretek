@@ -22,9 +22,10 @@
   - type: SpawnPoint
     job_id: Novice
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: technicalassistant
+      - state: novice
 
 - type: entity
   id: SpawnPointMedicalInternWH40K
@@ -48,9 +49,10 @@
   - type: SpawnPoint
     job_id: Recruit
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: security_cadet
+      - state: recruit
 
 - type: entity
   id: SpawnPointBartenderWH40K
@@ -128,9 +130,10 @@
   - type: SpawnPoint
     job_id: FirstAssistant
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: hop
+      - state: first_assistant
 
 # Engineering
 
@@ -143,9 +146,10 @@
   - type: SpawnPoint
     job_id: Magos
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: ce
+      - state: magos
 
 - type: entity
   id: SpawnPointLexmechanic
@@ -156,9 +160,10 @@
   - type: SpawnPoint
     job_id: Lexmechanic
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: seniorengineer
+      - state: lexmechanic
 
 - type: entity
   id: SpawnPointStationEnginseer
@@ -169,9 +174,10 @@
   - type: SpawnPoint
     job_id: Enginseer
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: engineer
+      - state: enginseer
 
 - type: entity
   id: SpawnPointGenetor
@@ -182,9 +188,10 @@
   - type: SpawnPoint
     job_id: Genetor
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: atmospherics
+      - state: genetor
 
 - type: entity
   id: SpawnPointExplorator
@@ -252,9 +259,10 @@
   - type: SpawnPoint
     job_id: HeadOfficer
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: hos
+      - state: head_officer
 
 - type: entity
   id: SpawnPointGunnerySergeant
@@ -265,9 +273,10 @@
   - type: SpawnPoint
     job_id: GunnerySergeant
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: warden
+      - state: gunnery_sergeant
 
 - type: entity
   id: SpawnPointSergeant
@@ -278,9 +287,10 @@
   - type: SpawnPoint
     job_id: Sergeant
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: seniorofficer
+      - state: sergeant
 
 - type: entity
   id: SpawnPointVoidsman
@@ -291,6 +301,7 @@
   - type: SpawnPoint
     job_id: Voidsman
   - type: Sprite
+    sprite: _WH40K/Markers/jobs.rsi
     layers:
       - state: green
-      - state: security_officer
+      - state: voidsman

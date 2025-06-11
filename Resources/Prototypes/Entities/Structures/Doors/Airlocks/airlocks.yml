@@ -4,7 +4,7 @@
   suffix: Freezer
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/freezer.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
   - type: Wires
     layoutId: AirlockService
 
@@ -14,7 +14,7 @@
   suffix: Engineering
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/engineering.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Engineering
   - type: Wires
@@ -26,7 +26,7 @@
   suffix: Atmospherics
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/atmospherics.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: Airlock
@@ -34,7 +34,7 @@
   suffix: Logistics # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/cargo.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Logistics
   - type: Wires
@@ -46,7 +46,7 @@
   suffix: Medical
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/medical.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Medical
   - type: Wires
@@ -58,7 +58,7 @@
   suffix: Virology
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/virology.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockMedical
@@ -66,7 +66,7 @@
   suffix: Chemistry
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/chemistry.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: Airlock
@@ -74,7 +74,7 @@
   suffix: Epistemics # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/science.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Epistemics
   - type: Wires
@@ -86,7 +86,7 @@
   suffix: Command
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/command.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
   - type: WiresPanelSecurity
     securityLevel: medSecurity
   - type: PaintableAirlock
@@ -101,7 +101,7 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/security.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Security
   - type: Wires
@@ -114,7 +114,7 @@
   name: maintenance access
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/maint.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockSecurity # if you get syndie door somehow it counts as sec
@@ -122,7 +122,7 @@
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/syndicate.rsi #Delta V - Resprite Doors
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockCargo
@@ -130,7 +130,7 @@
   suffix: Mining(Salvage)
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/mining.rsi
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
   - type: Wires
     layoutId: AirlockCargo
 
@@ -140,7 +140,7 @@
   suffix: Central Command
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Standard/centcomm.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: Airlock
@@ -165,7 +165,7 @@
   suffix: Engineering
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/engineering.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Engineering
   - type: Wires
@@ -177,7 +177,7 @@
   suffix: Maintenance
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/maint.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockEngineeringGlass
@@ -185,7 +185,7 @@
   suffix: Atmospherics
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/atmospherics.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockGlass
@@ -193,7 +193,7 @@
   suffix: Logistics # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/cargo.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Logistics
   - type: Wires
@@ -205,7 +205,7 @@
   suffix: Medical
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/medical.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Medical
   - type: Wires
@@ -217,7 +217,7 @@
   suffix: Chemistry
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/chemistry.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockMedicalGlass
@@ -225,7 +225,7 @@
   suffix: Virology
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/virology.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockGlass
@@ -233,7 +233,7 @@
   suffix: Epistemics # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/science.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Epistemics
   - type: Wires
@@ -245,7 +245,7 @@
   suffix: Command
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/command.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Command
   - type: WiresPanelSecurity
@@ -260,7 +260,7 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/security.rsi #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
   - type: PaintableAirlock
     department: Security
   - type: Wires
@@ -272,7 +272,7 @@
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/syndicate.rsi #Delta V - Resprite Doors
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockCargoGlass
@@ -280,7 +280,7 @@
   suffix: Mining(Salvage)
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/mining.rsi
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
 
 - type: entity
   parent: AirlockCommandGlass # see standard
@@ -288,4 +288,4 @@
   suffix: Central Command
   components:
   - type: Sprite
-    sprite: NES/Structures/Doors/Airlocks/Glass/centcomm.rsi  #NES14-Changes
+    sprite: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes

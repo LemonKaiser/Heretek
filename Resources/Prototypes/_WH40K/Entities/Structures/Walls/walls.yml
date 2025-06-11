@@ -2,7 +2,7 @@
   parent: BaseWall
   id: WallMetal
   name: металлическая стена
-  suffix: WH40K
+  suffix: WH40K, сверхукреплённая
   components:
   - type: Sprite
     sprite: _WH40K/Structures/Walls/solid.rsi
@@ -60,3 +60,25 @@
     price: 150
   - type: RadiationBlocker
     resistance: 8
+
+- type: entity
+  parent: WallShuttleDiagonal
+  id: WallMetalDiagonal
+  name: металлическая стена
+  suffix: WH40K, диагональная, сверхукреплённая
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _WH40K/Structures/Walls/solid_diagonal.rsi
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _WH40K/Structures/Walls/solid_diagonal.rsi
+    state: state0

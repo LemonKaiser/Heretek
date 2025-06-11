@@ -2,39 +2,39 @@
   id: Standard
   iconPriority: 100
   stylePaths:
-    atmospherics: NES/Structures/Doors/Airlocks/Standard/atmospherics.rsi #NES14-Changes
-    basic:       NES/Structures/Doors/Airlocks/Standard/basic.rsi #NES14-Changes
-    cargo:       NES/Structures/Doors/Airlocks/Standard/cargo.rsi #NES14-Changes
-    chemistry:   NES/Structures/Doors/Airlocks/Standard/chemistry.rsi #NES14-Changes
-    command:     NES/Structures/Doors/Airlocks/Standard/command.rsi #NES14-Changes
-    engineering: NES/Structures/Doors/Airlocks/Standard/engineering.rsi #NES14-Changes
-    freezer:     NES/Structures/Doors/Airlocks/Standard/freezer.rsi #NES14-Changes
-    maintenance: NES/Structures/Doors/Airlocks/Standard/maint.rsi #NES14-Changes
-    medical:     NES/Structures/Doors/Airlocks/Standard/medical.rsi #NES14-Changes
-    science:     NES/Structures/Doors/Airlocks/Standard/science.rsi #NES14-Changes
-    security:    NES/Structures/Doors/Airlocks/Standard/security.rsi #NES14-Changes
-    virology:    NES/Structures/Doors/Airlocks/Standard/virology.rsi #NES14-Changes
-    justice:     NES/Structures/Doors/Airlocks/Standard/justice.rsi # Delta V - Add Justice Dept #NES14-Changes
-    roboticist:  DeltaV/Structures/Doors/Airlocks/Glass/roboticist.rsi #Added Roboticist Role
+    atmospherics: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    basic:       _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    cargo:       _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    chemistry:   _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    command:     _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    engineering: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    freezer:     _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    maintenance: _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    medical:     _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    science:     _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    security:    _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    virology:    _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    justice:     _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
+    roboticist:  _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
 
 - type: AirlockGroup
   id: Glass
   iconPriority: 90
   stylePaths:
-    atmospherics: NES/Structures/Doors/Airlocks/Glass/atmospherics.rsi #NES14-Changes
-    basic:       NES/Structures/Doors/Airlocks/Glass/basic.rsi
-    cargo:       NES/Structures/Doors/Airlocks/Glass/cargo.rsi #NES14-Changes
-    command:     NES/Structures/Doors/Airlocks/Glass/command.rsi #NES14-Changes
-    chemistry:   NES/Structures/Doors/Airlocks/Glass/chemistry.rsi #NES14-Changes
-    science:     NES/Structures/Doors/Airlocks/Glass/science.rsi #NES14-Changes
-    engineering: NES/Structures/Doors/Airlocks/Glass/engineering.rsi #NES14-Changes
-    glass:       NES/Structures/Doors/Airlocks/Glass/glass.rsi #NES14-Changes
-    maintenance: NES/Structures/Doors/Airlocks/maint.rsi #NES14-Changes
-    medical:     NES/Structures/Doors/Airlocks/Glass/medical.rsi #NES14-Changes
-    security:    NES/Structures/Doors/Airlocks/Glass/security.rsi #NES14-Changes
-    virology:    NES/Structures/Doors/Airlocks/Glass/virology.rsi #NES14-Changes
-    justice:     DeltaV/Structures/Doors/Airlocks/Glass/justice.rsi # Delta V - Add Justice Dept
-    roboticist:  DeltaV/Structures/Doors/Airlocks/Glass/roboticist.rsi #Added Roboticist Role
+    atmospherics: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    basic:       _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    cargo:       _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    command:     _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    chemistry:   _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    science:     _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    engineering: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    glass:       _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    maintenance: _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    medical:     _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    security:    _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    virology:    _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    justice:     _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
+    roboticist:  _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
 
 - type: AirlockGroup
   id: Windoor
@@ -46,13 +46,13 @@
   id: External
   iconPriority: 70
   stylePaths:
-    external:    NES/Structures/Doors/Airlocks/Standard/external.rsi #NES14-Changes
+    external:    _WH40K/Structures/Doors/Airlocks/Standard/basic.rsi #WH40K-Changes
 
 - type: AirlockGroup
   id: ExternalGlass
   iconPriority: 60
   stylePaths:
-    external:    NES/Structures/Doors/Airlocks/Glass/external.rsi #NES14-Changes
+    external:    _WH40K/Structures/Doors/Airlocks/Glass/basic.rsi #WH40K-Changes
 
 - type: AirlockGroup
   id: Shuttle
