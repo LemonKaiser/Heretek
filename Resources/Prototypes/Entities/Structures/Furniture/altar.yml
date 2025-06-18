@@ -27,6 +27,7 @@
     snapCardinals: true
   - type: Clickable
   - type: SacrificialAltar
+  - type: PrayAltar ###
   - type: Strap
     position: Down
     rotation: -90
